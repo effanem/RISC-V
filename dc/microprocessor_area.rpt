@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : microprocessor
+Version: V-2023.12-SP4
+Date   : Fri Mar 13 18:08:28 2026
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_base_ff0p715v125c (File: /home/synopsys/installs/LIBRARIES/SAED14_EDK/SAED14nm_EDK_STD_RVT/liberty/nldm/base/saed14rvt_base_ff0p715v125c.db)
+    saed14sram_ff0p715v125c (File: /home/synopsys/installs/LIBRARIES/SAED14_EDK/SAED14nm_EDK_SRAM/liberty/nldm/saed14sram_ff0p715v125c.db)
+
+Number of ports:                         3293
+Number of nets:                          3729
+Number of cells:                         2100
+Number of combinational cells:           1811
+Number of sequential cells:               264
+Number of macros/black boxes:               2
+Number of buf/inv:                        404
+Number of references:                       3
+
+Combinational area:                571.250398
+Buf/Inv area:                       88.666800
+Noncombinational area:             281.318410
+Macro/Black Box area:           134872.812500
+Net Interconnect area:            1472.578766
+
+Total cell area:                135725.381308
+Total area:                     137197.960074
+1

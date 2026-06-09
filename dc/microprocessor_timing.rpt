@@ -1,0 +1,2257 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 5
+        -max_paths 10
+Design : microprocessor
+Version: V-2023.12-SP4
+Date   : Fri Mar 13 18:08:28 2026
+****************************************
+
+Operating Conditions: ff0p715v125c   Library: saed14rvt_base_ff0p715v125c
+Wire Load Model Mode: top
+
+  Startpoint: instruction[21]
+              (input port clocked by clk)
+  Endpoint: u_instruction_memory/u_memory/mem
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  input external delay                                    1.00       2.50 r
+  instruction[21] (in)                                    0.00       2.50 r
+  u_instruction_memory/data_in[21] (instruc_mem_top_INIT_MEM1)
+                                                          0.00       2.50 r
+  u_instruction_memory/u_memory/data_in[21] (memory_INIT_MEM1)
+                                                          0.00       2.50 r
+  u_instruction_memory/u_memory/mem/I[21] (SRAM1RW256x32)
+                                                          0.00       2.50 r
+  data arrival time                                                  2.50
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_instruction_memory/u_memory/mem/CE (SRAM1RW256x32)
+                                                          0.00       6.20 r
+  library setup time                                     -0.15       6.05
+  data required time                                                 6.05
+  --------------------------------------------------------------------------
+  data required time                                                 6.05
+  data arrival time                                                 -2.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        3.55
+
+
+  Startpoint: instruction[18]
+              (input port clocked by clk)
+  Endpoint: u_instruction_memory/u_memory/mem
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  input external delay                                    1.00       2.50 r
+  instruction[18] (in)                                    0.00       2.50 r
+  u_instruction_memory/data_in[18] (instruc_mem_top_INIT_MEM1)
+                                                          0.00       2.50 r
+  u_instruction_memory/u_memory/data_in[18] (memory_INIT_MEM1)
+                                                          0.00       2.50 r
+  u_instruction_memory/u_memory/mem/I[18] (SRAM1RW256x32)
+                                                          0.00       2.50 r
+  data arrival time                                                  2.50
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_instruction_memory/u_memory/mem/CE (SRAM1RW256x32)
+                                                          0.00       6.20 r
+  library setup time                                     -0.14       6.06
+  data required time                                                 6.06
+  --------------------------------------------------------------------------
+  data required time                                                 6.06
+  data arrival time                                                 -2.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        3.56
+
+
+  Startpoint: instruction[21]
+              (input port clocked by clk)
+  Endpoint: u_instruction_memory/u_memory/mem
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  input external delay                                    1.00       2.50 f
+  instruction[21] (in)                                    0.00       2.50 f
+  u_instruction_memory/data_in[21] (instruc_mem_top_INIT_MEM1)
+                                                          0.00       2.50 f
+  u_instruction_memory/u_memory/data_in[21] (memory_INIT_MEM1)
+                                                          0.00       2.50 f
+  u_instruction_memory/u_memory/mem/I[21] (SRAM1RW256x32)
+                                                          0.00       2.50 f
+  data arrival time                                                  2.50
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_instruction_memory/u_memory/mem/CE (SRAM1RW256x32)
+                                                          0.00       6.20 r
+  library setup time                                     -0.12       6.08
+  data required time                                                 6.08
+  --------------------------------------------------------------------------
+  data required time                                                 6.08
+  data arrival time                                                 -2.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        3.58
+
+
+  Startpoint: instruction[20]
+              (input port clocked by clk)
+  Endpoint: u_instruction_memory/u_memory/mem
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  input external delay                                    1.00       2.50 r
+  instruction[20] (in)                                    0.00       2.50 r
+  u_instruction_memory/data_in[20] (instruc_mem_top_INIT_MEM1)
+                                                          0.00       2.50 r
+  u_instruction_memory/u_memory/data_in[20] (memory_INIT_MEM1)
+                                                          0.00       2.50 r
+  u_instruction_memory/u_memory/mem/I[20] (SRAM1RW256x32)
+                                                          0.00       2.50 r
+  data arrival time                                                  2.50
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_instruction_memory/u_memory/mem/CE (SRAM1RW256x32)
+                                                          0.00       6.20 r
+  library setup time                                     -0.12       6.08
+  data required time                                                 6.08
+  --------------------------------------------------------------------------
+  data required time                                                 6.08
+  data arrival time                                                 -2.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        3.58
+
+
+  Startpoint: instruction[31]
+              (input port clocked by clk)
+  Endpoint: u_instruction_memory/u_memory/mem
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  input external delay                                    1.00       2.50 r
+  instruction[31] (in)                                    0.00       2.50 r
+  u_instruction_memory/data_in[31] (instruc_mem_top_INIT_MEM1)
+                                                          0.00       2.50 r
+  u_instruction_memory/u_memory/data_in[31] (memory_INIT_MEM1)
+                                                          0.00       2.50 r
+  u_instruction_memory/u_memory/mem/I[31] (SRAM1RW256x32)
+                                                          0.00       2.50 r
+  data arrival time                                                  2.50
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_instruction_memory/u_memory/mem/CE (SRAM1RW256x32)
+                                                          0.00       6.20 r
+  library setup time                                     -0.11       6.09
+  data required time                                                 6.09
+  --------------------------------------------------------------------------
+  data required time                                                 6.09
+  data arrival time                                                 -2.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        3.59
+
+
+  Startpoint: instruction[14]
+              (input port clocked by clk)
+  Endpoint: u_instruction_memory/u_memory/mem
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  input external delay                                    1.00       2.50 r
+  instruction[14] (in)                                    0.00       2.50 r
+  u_instruction_memory/data_in[14] (instruc_mem_top_INIT_MEM1)
+                                                          0.00       2.50 r
+  u_instruction_memory/u_memory/data_in[14] (memory_INIT_MEM1)
+                                                          0.00       2.50 r
+  u_instruction_memory/u_memory/mem/I[14] (SRAM1RW256x32)
+                                                          0.00       2.50 r
+  data arrival time                                                  2.50
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_instruction_memory/u_memory/mem/CE (SRAM1RW256x32)
+                                                          0.00       6.20 r
+  library setup time                                     -0.11       6.09
+  data required time                                                 6.09
+  --------------------------------------------------------------------------
+  data required time                                                 6.09
+  data arrival time                                                 -2.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        3.59
+
+
+  Startpoint: instruction[15]
+              (input port clocked by clk)
+  Endpoint: u_instruction_memory/u_memory/mem
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  input external delay                                    1.00       2.50 r
+  instruction[15] (in)                                    0.00       2.50 r
+  u_instruction_memory/data_in[15] (instruc_mem_top_INIT_MEM1)
+                                                          0.00       2.50 r
+  u_instruction_memory/u_memory/data_in[15] (memory_INIT_MEM1)
+                                                          0.00       2.50 r
+  u_instruction_memory/u_memory/mem/I[15] (SRAM1RW256x32)
+                                                          0.00       2.50 r
+  data arrival time                                                  2.50
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_instruction_memory/u_memory/mem/CE (SRAM1RW256x32)
+                                                          0.00       6.20 r
+  library setup time                                     -0.11       6.09
+  data required time                                                 6.09
+  --------------------------------------------------------------------------
+  data required time                                                 6.09
+  data arrival time                                                 -2.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        3.59
+
+
+  Startpoint: instruction[18]
+              (input port clocked by clk)
+  Endpoint: u_instruction_memory/u_memory/mem
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  input external delay                                    1.00       2.50 f
+  instruction[18] (in)                                    0.00       2.50 f
+  u_instruction_memory/data_in[18] (instruc_mem_top_INIT_MEM1)
+                                                          0.00       2.50 f
+  u_instruction_memory/u_memory/data_in[18] (memory_INIT_MEM1)
+                                                          0.00       2.50 f
+  u_instruction_memory/u_memory/mem/I[18] (SRAM1RW256x32)
+                                                          0.00       2.50 f
+  data arrival time                                                  2.50
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_instruction_memory/u_memory/mem/CE (SRAM1RW256x32)
+                                                          0.00       6.20 r
+  library setup time                                     -0.11       6.09
+  data required time                                                 6.09
+  --------------------------------------------------------------------------
+  data required time                                                 6.09
+  data arrival time                                                 -2.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        3.59
+
+
+  Startpoint: instruction[19]
+              (input port clocked by clk)
+  Endpoint: u_instruction_memory/u_memory/mem
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  input external delay                                    1.00       2.50 r
+  instruction[19] (in)                                    0.00       2.50 r
+  u_instruction_memory/data_in[19] (instruc_mem_top_INIT_MEM1)
+                                                          0.00       2.50 r
+  u_instruction_memory/u_memory/data_in[19] (memory_INIT_MEM1)
+                                                          0.00       2.50 r
+  u_instruction_memory/u_memory/mem/I[19] (SRAM1RW256x32)
+                                                          0.00       2.50 r
+  data arrival time                                                  2.50
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_instruction_memory/u_memory/mem/CE (SRAM1RW256x32)
+                                                          0.00       6.20 r
+  library setup time                                     -0.10       6.10
+  data required time                                                 6.10
+  --------------------------------------------------------------------------
+  data required time                                                 6.10
+  data arrival time                                                 -2.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        3.60
+
+
+  Startpoint: instruction[23]
+              (input port clocked by clk)
+  Endpoint: u_instruction_memory/u_memory/mem
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: INPUTS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  input external delay                                    1.00       2.50 r
+  instruction[23] (in)                                    0.00       2.50 r
+  u_instruction_memory/data_in[23] (instruc_mem_top_INIT_MEM1)
+                                                          0.00       2.50 r
+  u_instruction_memory/u_memory/data_in[23] (memory_INIT_MEM1)
+                                                          0.00       2.50 r
+  u_instruction_memory/u_memory/mem/I[23] (SRAM1RW256x32)
+                                                          0.00       2.50 r
+  data arrival time                                                  2.50
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_instruction_memory/u_memory/mem/CE (SRAM1RW256x32)
+                                                          0.00       6.20 r
+  library setup time                                     -0.10       6.10
+  data required time                                                 6.10
+  --------------------------------------------------------------------------
+  data required time                                                 6.10
+  data arrival time                                                 -2.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        3.60
+
+
+  Startpoint: u_core/u_executepipeline/instruction_reg[9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_core/u_fetchstage/u_pc0/address_out_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: REGS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  u_core/u_executepipeline/instruction_reg[9]/CK (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       1.50 r
+  u_core/u_executepipeline/instruction_reg[9]/Q (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.09       1.59 r
+  u_core/u_executepipeline/instruction_out[9] (execute_pipe)
+                                                          0.00       1.59 r
+  u_core/U40/X (SAEDRVT14_INV_S_2)                        0.04       1.64 f
+  u_core/U41/X (SAEDRVT14_OAI22_1)                        0.04       1.68 r
+  u_core/U7/X (SAEDRVT14_AO221_0P5)                       0.05       1.73 r
+  u_core/U45/X (SAEDRVT14_OR3_4)                          0.04       1.77 r
+  u_core/U46/X (SAEDRVT14_BUF_S_6)                        0.05       1.81 r
+  u_core/U53/X (SAEDRVT14_MUX2_2)                         0.10       1.91 f
+  u_core/u_executestage/b_i[1] (execute)                  0.00       1.91 f
+  u_core/u_executestage/u_alu0/b_i[1] (alu)               0.00       1.91 f
+  u_core/u_executestage/u_alu0/U586/X (SAEDRVT14_INV_S_2)
+                                                          0.07       1.99 r
+  u_core/u_executestage/u_alu0/U385/X (SAEDRVT14_AO21_1)
+                                                          0.04       2.03 r
+  u_core/u_executestage/u_alu0/U470/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.06 f
+  u_core/u_executestage/u_alu0/U469/X (SAEDRVT14_OAI21_2)
+                                                          0.03       2.09 r
+  u_core/u_executestage/u_alu0/U383/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.13 f
+  u_core/u_executestage/u_alu0/U382/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.17 r
+  u_core/u_executestage/u_alu0/U465/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.19 f
+  u_core/u_executestage/u_alu0/U620/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.24 r
+  u_core/u_executestage/u_alu0/U378/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.28 f
+  u_core/u_executestage/u_alu0/U358/X (SAEDRVT14_OAI21_4)
+                                                          0.03       2.31 r
+  u_core/u_executestage/u_alu0/U622/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.33 f
+  u_core/u_executestage/u_alu0/U322/X (SAEDRVT14_INV_4)
+                                                          0.03       2.36 r
+  u_core/u_executestage/u_alu0/U623/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       2.39 f
+  u_core/u_executestage/u_alu0/U624/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.41 r
+  u_core/u_executestage/u_alu0/U625/X (SAEDRVT14_AO21B_0P5)
+                                                          0.13       2.54 f
+  u_core/u_executestage/u_alu0/U457/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.58 r
+  u_core/u_executestage/u_alu0/U626/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       2.73 f
+  u_core/u_executestage/u_alu0/U453/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.77 r
+  u_core/u_executestage/u_alu0/U627/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       2.91 f
+  u_core/u_executestage/u_alu0/U450/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.95 r
+  u_core/u_executestage/u_alu0/U628/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.10 f
+  u_core/u_executestage/u_alu0/U447/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.14 r
+  u_core/u_executestage/u_alu0/U629/X (SAEDRVT14_AO21B_0P5)
+                                                          0.16       3.30 f
+  u_core/u_executestage/u_alu0/U630/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.34 r
+  u_core/u_executestage/u_alu0/U631/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.49 f
+  u_core/u_executestage/u_alu0/U632/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.52 r
+  u_core/u_executestage/u_alu0/U633/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.67 f
+  u_core/u_executestage/u_alu0/U634/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.71 r
+  u_core/u_executestage/u_alu0/U635/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       3.85 f
+  u_core/u_executestage/u_alu0/U373/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.89 r
+  u_core/u_executestage/u_alu0/U636/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.04 f
+  u_core/u_executestage/u_alu0/U357/X (SAEDRVT14_OAI21_3)
+                                                          0.04       4.08 r
+  u_core/u_executestage/u_alu0/U637/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       4.23 f
+  u_core/u_executestage/u_alu0/U638/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.26 r
+  u_core/u_executestage/u_alu0/U639/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.40 f
+  u_core/u_executestage/u_alu0/U640/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.44 r
+  u_core/u_executestage/u_alu0/U641/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       4.56 f
+  u_core/u_executestage/u_alu0/U642/X (SAEDRVT14_OAI21_2)
+                                                          0.06       4.61 r
+  u_core/u_executestage/u_alu0/U431/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.65 f
+  u_core/u_executestage/u_alu0/U355/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.67 r
+  u_core/u_executestage/u_alu0/U643/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       4.79 f
+  u_core/u_executestage/u_alu0/U644/X (SAEDRVT14_INV_S_2)
+                                                          0.06       4.84 r
+  u_core/u_executestage/u_alu0/U430/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.88 f
+  u_core/u_executestage/u_alu0/U429/X (SAEDRVT14_INV_4)
+                                                          0.04       4.92 r
+  u_core/u_executestage/u_alu0/U352/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.94 f
+  u_core/u_executestage/u_alu0/U427/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.97 r
+  u_core/u_executestage/u_alu0/U351/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       5.01 f
+  u_core/u_executestage/u_alu0/U370/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.02       5.03 r
+  u_core/u_executestage/u_alu0/U754/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       5.14 f
+  u_core/u_executestage/u_alu0/U755/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.21 r
+  u_core/u_executestage/u_alu0/U369/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.04       5.24 f
+  u_core/u_executestage/u_alu0/U419/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       5.27 r
+  u_core/u_executestage/u_alu0/U756/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       5.39 f
+  u_core/u_executestage/u_alu0/U757/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.44 r
+  u_core/u_executestage/u_alu0/U319/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       5.48 f
+  u_core/u_executestage/u_alu0/U807/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.51 r
+  u_core/u_executestage/u_alu0/U808/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.05       5.56 f
+  u_core/u_executestage/u_alu0/U350/X (SAEDRVT14_OAI21_3)
+                                                          0.03       5.59 r
+  u_core/u_executestage/u_alu0/U857/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       5.74 f
+  u_core/u_executestage/u_alu0/U364/X (SAEDRVT14_OAI21_2)
+                                                          0.05       5.79 r
+  u_core/u_executestage/u_alu0/U1357/X (SAEDRVT14_AO21B_0P5)
+                                                          0.08       5.87 f
+  u_core/u_executestage/u_alu0/U399/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.91 r
+  u_core/u_executestage/u_alu0/U1358/X (SAEDRVT14_AOI21_1P5)
+                                                          0.06       5.97 f
+  u_core/u_executestage/u_alu0/U362/X (SAEDRVT14_OA221_U_0P5)
+                                                          0.07       6.04 f
+  u_core/u_executestage/u_alu0/U1359/X (SAEDRVT14_OAI21_0P5)
+                                                          0.05       6.08 r
+  u_core/u_executestage/u_alu0/U395/X (SAEDRVT14_AOI21_1P5)
+                                                          0.05       6.13 f
+  u_core/u_executestage/u_alu0/U294/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       6.16 r
+  u_core/u_executestage/u_alu0/res_o[31] (alu)            0.00       6.16 r
+  u_core/u_executestage/alu_res_out[31] (execute)         0.00       6.16 r
+  u_core/u_fetchstage/next_address[31] (fetch)            0.00       6.16 r
+  u_core/u_fetchstage/u_pc0/next_address[31] (pc)         0.00       6.16 r
+  u_core/u_fetchstage/u_pc0/U38/X (SAEDRVT14_AO21_1)      0.03       6.19 r
+  u_core/u_fetchstage/u_pc0/address_out_reg[31]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       6.19 r
+  data arrival time                                                  6.19
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_core/u_fetchstage/u_pc0/address_out_reg[31]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       6.20 r
+  library setup time                                      0.00       6.20
+  data required time                                                 6.20
+  --------------------------------------------------------------------------
+  data required time                                                 6.20
+  data arrival time                                                 -6.19
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.01
+
+
+  Startpoint: u_core/u_executepipeline/instruction_reg[9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_core/u_fetchstage/u_pc0/address_out_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: REGS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  u_core/u_executepipeline/instruction_reg[9]/CK (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       1.50 r
+  u_core/u_executepipeline/instruction_reg[9]/Q (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.09       1.59 r
+  u_core/u_executepipeline/instruction_out[9] (execute_pipe)
+                                                          0.00       1.59 r
+  u_core/U40/X (SAEDRVT14_INV_S_2)                        0.04       1.64 f
+  u_core/U41/X (SAEDRVT14_OAI22_1)                        0.04       1.68 r
+  u_core/U7/X (SAEDRVT14_AO221_0P5)                       0.05       1.73 r
+  u_core/U45/X (SAEDRVT14_OR3_4)                          0.04       1.77 r
+  u_core/U46/X (SAEDRVT14_BUF_S_6)                        0.05       1.81 r
+  u_core/U53/X (SAEDRVT14_MUX2_2)                         0.10       1.91 f
+  u_core/u_executestage/b_i[1] (execute)                  0.00       1.91 f
+  u_core/u_executestage/u_alu0/b_i[1] (alu)               0.00       1.91 f
+  u_core/u_executestage/u_alu0/U586/X (SAEDRVT14_INV_S_2)
+                                                          0.07       1.99 r
+  u_core/u_executestage/u_alu0/U385/X (SAEDRVT14_AO21_1)
+                                                          0.04       2.03 r
+  u_core/u_executestage/u_alu0/U470/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.06 f
+  u_core/u_executestage/u_alu0/U469/X (SAEDRVT14_OAI21_2)
+                                                          0.03       2.09 r
+  u_core/u_executestage/u_alu0/U383/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.13 f
+  u_core/u_executestage/u_alu0/U382/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.17 r
+  u_core/u_executestage/u_alu0/U465/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.19 f
+  u_core/u_executestage/u_alu0/U620/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.24 r
+  u_core/u_executestage/u_alu0/U378/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.28 f
+  u_core/u_executestage/u_alu0/U358/X (SAEDRVT14_OAI21_4)
+                                                          0.03       2.31 r
+  u_core/u_executestage/u_alu0/U622/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.33 f
+  u_core/u_executestage/u_alu0/U322/X (SAEDRVT14_INV_4)
+                                                          0.03       2.36 r
+  u_core/u_executestage/u_alu0/U623/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       2.39 f
+  u_core/u_executestage/u_alu0/U624/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.41 r
+  u_core/u_executestage/u_alu0/U625/X (SAEDRVT14_AO21B_0P5)
+                                                          0.13       2.54 f
+  u_core/u_executestage/u_alu0/U457/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.58 r
+  u_core/u_executestage/u_alu0/U626/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       2.73 f
+  u_core/u_executestage/u_alu0/U453/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.77 r
+  u_core/u_executestage/u_alu0/U627/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       2.91 f
+  u_core/u_executestage/u_alu0/U450/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.95 r
+  u_core/u_executestage/u_alu0/U628/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.10 f
+  u_core/u_executestage/u_alu0/U447/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.14 r
+  u_core/u_executestage/u_alu0/U629/X (SAEDRVT14_AO21B_0P5)
+                                                          0.16       3.30 f
+  u_core/u_executestage/u_alu0/U630/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.34 r
+  u_core/u_executestage/u_alu0/U631/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.49 f
+  u_core/u_executestage/u_alu0/U632/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.52 r
+  u_core/u_executestage/u_alu0/U633/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.67 f
+  u_core/u_executestage/u_alu0/U634/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.71 r
+  u_core/u_executestage/u_alu0/U635/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       3.85 f
+  u_core/u_executestage/u_alu0/U373/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.89 r
+  u_core/u_executestage/u_alu0/U636/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.04 f
+  u_core/u_executestage/u_alu0/U357/X (SAEDRVT14_OAI21_3)
+                                                          0.04       4.08 r
+  u_core/u_executestage/u_alu0/U637/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       4.23 f
+  u_core/u_executestage/u_alu0/U638/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.26 r
+  u_core/u_executestage/u_alu0/U639/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.40 f
+  u_core/u_executestage/u_alu0/U640/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.44 r
+  u_core/u_executestage/u_alu0/U641/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       4.56 f
+  u_core/u_executestage/u_alu0/U642/X (SAEDRVT14_OAI21_2)
+                                                          0.06       4.61 r
+  u_core/u_executestage/u_alu0/U431/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.65 f
+  u_core/u_executestage/u_alu0/U355/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.67 r
+  u_core/u_executestage/u_alu0/U643/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       4.79 f
+  u_core/u_executestage/u_alu0/U644/X (SAEDRVT14_INV_S_2)
+                                                          0.06       4.84 r
+  u_core/u_executestage/u_alu0/U430/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.88 f
+  u_core/u_executestage/u_alu0/U429/X (SAEDRVT14_INV_4)
+                                                          0.04       4.92 r
+  u_core/u_executestage/u_alu0/U352/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.94 f
+  u_core/u_executestage/u_alu0/U427/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.97 r
+  u_core/u_executestage/u_alu0/U351/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       5.01 f
+  u_core/u_executestage/u_alu0/U370/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.02       5.03 r
+  u_core/u_executestage/u_alu0/U754/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       5.14 f
+  u_core/u_executestage/u_alu0/U755/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.21 r
+  u_core/u_executestage/u_alu0/U369/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.04       5.24 f
+  u_core/u_executestage/u_alu0/U419/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       5.27 r
+  u_core/u_executestage/u_alu0/U756/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       5.39 f
+  u_core/u_executestage/u_alu0/U757/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.44 r
+  u_core/u_executestage/u_alu0/U319/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       5.48 f
+  u_core/u_executestage/u_alu0/U807/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.51 r
+  u_core/u_executestage/u_alu0/U808/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.05       5.56 f
+  u_core/u_executestage/u_alu0/U350/X (SAEDRVT14_OAI21_3)
+                                                          0.03       5.59 r
+  u_core/u_executestage/u_alu0/U857/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       5.74 f
+  u_core/u_executestage/u_alu0/U364/X (SAEDRVT14_OAI21_2)
+                                                          0.05       5.79 r
+  u_core/u_executestage/u_alu0/U1357/X (SAEDRVT14_AO21B_0P5)
+                                                          0.08       5.87 f
+  u_core/u_executestage/u_alu0/U399/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.91 r
+  u_core/u_executestage/u_alu0/U1358/X (SAEDRVT14_AOI21_1P5)
+                                                          0.06       5.97 f
+  u_core/u_executestage/u_alu0/U362/X (SAEDRVT14_OA221_U_0P5)
+                                                          0.07       6.04 f
+  u_core/u_executestage/u_alu0/U1359/X (SAEDRVT14_OAI21_0P5)
+                                                          0.05       6.08 r
+  u_core/u_executestage/u_alu0/U395/X (SAEDRVT14_AOI21_1P5)
+                                                          0.05       6.13 f
+  u_core/u_executestage/u_alu0/U294/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       6.16 r
+  u_core/u_executestage/u_alu0/res_o[31] (alu)            0.00       6.16 r
+  u_core/u_executestage/alu_res_out[31] (execute)         0.00       6.16 r
+  u_core/u_fetchstage/next_address[31] (fetch)            0.00       6.16 r
+  u_core/u_fetchstage/u_pc0/next_address[31] (pc)         0.00       6.16 r
+  u_core/u_fetchstage/u_pc0/U38/X (SAEDRVT14_AO21_1)      0.03       6.19 r
+  u_core/u_fetchstage/u_pc0/address_out_reg[31]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       6.19 r
+  data arrival time                                                  6.19
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_core/u_fetchstage/u_pc0/address_out_reg[31]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       6.20 r
+  library setup time                                      0.00       6.20
+  data required time                                                 6.20
+  --------------------------------------------------------------------------
+  data required time                                                 6.20
+  data arrival time                                                 -6.19
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.01
+
+
+  Startpoint: u_core/u_executepipeline/instruction_reg[9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_core/u_fetchstage/u_pc0/address_out_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: REGS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  u_core/u_executepipeline/instruction_reg[9]/CK (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       1.50 r
+  u_core/u_executepipeline/instruction_reg[9]/Q (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.09       1.59 r
+  u_core/u_executepipeline/instruction_out[9] (execute_pipe)
+                                                          0.00       1.59 r
+  u_core/U40/X (SAEDRVT14_INV_S_2)                        0.04       1.64 f
+  u_core/U41/X (SAEDRVT14_OAI22_1)                        0.04       1.68 r
+  u_core/U7/X (SAEDRVT14_AO221_0P5)                       0.05       1.73 r
+  u_core/U45/X (SAEDRVT14_OR3_4)                          0.04       1.77 r
+  u_core/U46/X (SAEDRVT14_BUF_S_6)                        0.05       1.81 r
+  u_core/U53/X (SAEDRVT14_MUX2_2)                         0.10       1.91 f
+  u_core/u_executestage/b_i[1] (execute)                  0.00       1.91 f
+  u_core/u_executestage/u_alu0/b_i[1] (alu)               0.00       1.91 f
+  u_core/u_executestage/u_alu0/U586/X (SAEDRVT14_INV_S_2)
+                                                          0.07       1.99 r
+  u_core/u_executestage/u_alu0/U385/X (SAEDRVT14_AO21_1)
+                                                          0.04       2.03 r
+  u_core/u_executestage/u_alu0/U470/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.06 f
+  u_core/u_executestage/u_alu0/U469/X (SAEDRVT14_OAI21_2)
+                                                          0.03       2.09 r
+  u_core/u_executestage/u_alu0/U383/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.13 f
+  u_core/u_executestage/u_alu0/U382/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.17 r
+  u_core/u_executestage/u_alu0/U465/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.19 f
+  u_core/u_executestage/u_alu0/U620/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.24 r
+  u_core/u_executestage/u_alu0/U378/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.28 f
+  u_core/u_executestage/u_alu0/U358/X (SAEDRVT14_OAI21_4)
+                                                          0.03       2.31 r
+  u_core/u_executestage/u_alu0/U622/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.33 f
+  u_core/u_executestage/u_alu0/U322/X (SAEDRVT14_INV_4)
+                                                          0.03       2.36 r
+  u_core/u_executestage/u_alu0/U623/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       2.39 f
+  u_core/u_executestage/u_alu0/U624/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.41 r
+  u_core/u_executestage/u_alu0/U625/X (SAEDRVT14_AO21B_0P5)
+                                                          0.13       2.54 f
+  u_core/u_executestage/u_alu0/U457/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.58 r
+  u_core/u_executestage/u_alu0/U626/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       2.73 f
+  u_core/u_executestage/u_alu0/U453/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.77 r
+  u_core/u_executestage/u_alu0/U627/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       2.91 f
+  u_core/u_executestage/u_alu0/U450/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.95 r
+  u_core/u_executestage/u_alu0/U628/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.10 f
+  u_core/u_executestage/u_alu0/U447/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.14 r
+  u_core/u_executestage/u_alu0/U629/X (SAEDRVT14_AO21B_0P5)
+                                                          0.16       3.30 f
+  u_core/u_executestage/u_alu0/U630/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.34 r
+  u_core/u_executestage/u_alu0/U631/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.49 f
+  u_core/u_executestage/u_alu0/U632/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.52 r
+  u_core/u_executestage/u_alu0/U633/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.67 f
+  u_core/u_executestage/u_alu0/U634/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.71 r
+  u_core/u_executestage/u_alu0/U635/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       3.85 f
+  u_core/u_executestage/u_alu0/U373/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.89 r
+  u_core/u_executestage/u_alu0/U636/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.04 f
+  u_core/u_executestage/u_alu0/U357/X (SAEDRVT14_OAI21_3)
+                                                          0.04       4.08 r
+  u_core/u_executestage/u_alu0/U637/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       4.23 f
+  u_core/u_executestage/u_alu0/U638/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.26 r
+  u_core/u_executestage/u_alu0/U639/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.40 f
+  u_core/u_executestage/u_alu0/U640/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.44 r
+  u_core/u_executestage/u_alu0/U641/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       4.56 f
+  u_core/u_executestage/u_alu0/U642/X (SAEDRVT14_OAI21_2)
+                                                          0.06       4.61 r
+  u_core/u_executestage/u_alu0/U431/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.65 f
+  u_core/u_executestage/u_alu0/U355/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.67 r
+  u_core/u_executestage/u_alu0/U643/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       4.79 f
+  u_core/u_executestage/u_alu0/U644/X (SAEDRVT14_INV_S_2)
+                                                          0.06       4.84 r
+  u_core/u_executestage/u_alu0/U430/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.88 f
+  u_core/u_executestage/u_alu0/U429/X (SAEDRVT14_INV_4)
+                                                          0.04       4.92 r
+  u_core/u_executestage/u_alu0/U352/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.94 f
+  u_core/u_executestage/u_alu0/U427/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.97 r
+  u_core/u_executestage/u_alu0/U351/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       5.01 f
+  u_core/u_executestage/u_alu0/U370/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.02       5.03 r
+  u_core/u_executestage/u_alu0/U754/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       5.14 f
+  u_core/u_executestage/u_alu0/U755/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.21 r
+  u_core/u_executestage/u_alu0/U369/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.04       5.24 f
+  u_core/u_executestage/u_alu0/U419/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       5.27 r
+  u_core/u_executestage/u_alu0/U756/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       5.39 f
+  u_core/u_executestage/u_alu0/U757/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.44 r
+  u_core/u_executestage/u_alu0/U319/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       5.48 f
+  u_core/u_executestage/u_alu0/U807/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.51 r
+  u_core/u_executestage/u_alu0/U808/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.05       5.56 f
+  u_core/u_executestage/u_alu0/U350/X (SAEDRVT14_OAI21_3)
+                                                          0.03       5.59 r
+  u_core/u_executestage/u_alu0/U857/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       5.74 f
+  u_core/u_executestage/u_alu0/U364/X (SAEDRVT14_OAI21_2)
+                                                          0.05       5.79 r
+  u_core/u_executestage/u_alu0/U1357/X (SAEDRVT14_AO21B_0P5)
+                                                          0.08       5.87 f
+  u_core/u_executestage/u_alu0/U399/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.91 r
+  u_core/u_executestage/u_alu0/U1358/X (SAEDRVT14_AOI21_1P5)
+                                                          0.06       5.97 f
+  u_core/u_executestage/u_alu0/U362/X (SAEDRVT14_OA221_U_0P5)
+                                                          0.07       6.04 f
+  u_core/u_executestage/u_alu0/U1359/X (SAEDRVT14_OAI21_0P5)
+                                                          0.05       6.08 r
+  u_core/u_executestage/u_alu0/U395/X (SAEDRVT14_AOI21_1P5)
+                                                          0.05       6.13 f
+  u_core/u_executestage/u_alu0/U294/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       6.16 r
+  u_core/u_executestage/u_alu0/res_o[31] (alu)            0.00       6.16 r
+  u_core/u_executestage/alu_res_out[31] (execute)         0.00       6.16 r
+  u_core/u_fetchstage/next_address[31] (fetch)            0.00       6.16 r
+  u_core/u_fetchstage/u_pc0/next_address[31] (pc)         0.00       6.16 r
+  u_core/u_fetchstage/u_pc0/U38/X (SAEDRVT14_AO21_1)      0.03       6.19 r
+  u_core/u_fetchstage/u_pc0/address_out_reg[31]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       6.19 r
+  data arrival time                                                  6.19
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_core/u_fetchstage/u_pc0/address_out_reg[31]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       6.20 r
+  library setup time                                      0.00       6.20
+  data required time                                                 6.20
+  --------------------------------------------------------------------------
+  data required time                                                 6.20
+  data arrival time                                                 -6.19
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.01
+
+
+  Startpoint: u_core/u_executepipeline/instruction_reg[9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_core/u_fetchstage/u_pc0/address_out_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: REGS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  u_core/u_executepipeline/instruction_reg[9]/CK (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       1.50 r
+  u_core/u_executepipeline/instruction_reg[9]/Q (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.09       1.59 r
+  u_core/u_executepipeline/instruction_out[9] (execute_pipe)
+                                                          0.00       1.59 r
+  u_core/U40/X (SAEDRVT14_INV_S_2)                        0.04       1.64 f
+  u_core/U41/X (SAEDRVT14_OAI22_1)                        0.04       1.68 r
+  u_core/U7/X (SAEDRVT14_AO221_0P5)                       0.05       1.73 r
+  u_core/U45/X (SAEDRVT14_OR3_4)                          0.04       1.77 r
+  u_core/U46/X (SAEDRVT14_BUF_S_6)                        0.05       1.81 r
+  u_core/U53/X (SAEDRVT14_MUX2_2)                         0.10       1.91 f
+  u_core/u_executestage/b_i[1] (execute)                  0.00       1.91 f
+  u_core/u_executestage/u_alu0/b_i[1] (alu)               0.00       1.91 f
+  u_core/u_executestage/u_alu0/U586/X (SAEDRVT14_INV_S_2)
+                                                          0.07       1.99 r
+  u_core/u_executestage/u_alu0/U385/X (SAEDRVT14_AO21_1)
+                                                          0.04       2.03 r
+  u_core/u_executestage/u_alu0/U470/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.06 f
+  u_core/u_executestage/u_alu0/U469/X (SAEDRVT14_OAI21_2)
+                                                          0.03       2.09 r
+  u_core/u_executestage/u_alu0/U383/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.13 f
+  u_core/u_executestage/u_alu0/U382/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.17 r
+  u_core/u_executestage/u_alu0/U465/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.19 f
+  u_core/u_executestage/u_alu0/U620/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.24 r
+  u_core/u_executestage/u_alu0/U378/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.28 f
+  u_core/u_executestage/u_alu0/U358/X (SAEDRVT14_OAI21_4)
+                                                          0.03       2.31 r
+  u_core/u_executestage/u_alu0/U622/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.33 f
+  u_core/u_executestage/u_alu0/U322/X (SAEDRVT14_INV_4)
+                                                          0.03       2.36 r
+  u_core/u_executestage/u_alu0/U623/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       2.39 f
+  u_core/u_executestage/u_alu0/U624/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.41 r
+  u_core/u_executestage/u_alu0/U625/X (SAEDRVT14_AO21B_0P5)
+                                                          0.13       2.54 f
+  u_core/u_executestage/u_alu0/U457/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.58 r
+  u_core/u_executestage/u_alu0/U626/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       2.73 f
+  u_core/u_executestage/u_alu0/U453/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.77 r
+  u_core/u_executestage/u_alu0/U627/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       2.91 f
+  u_core/u_executestage/u_alu0/U450/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.95 r
+  u_core/u_executestage/u_alu0/U628/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.10 f
+  u_core/u_executestage/u_alu0/U447/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.14 r
+  u_core/u_executestage/u_alu0/U629/X (SAEDRVT14_AO21B_0P5)
+                                                          0.16       3.30 f
+  u_core/u_executestage/u_alu0/U630/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.34 r
+  u_core/u_executestage/u_alu0/U631/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.49 f
+  u_core/u_executestage/u_alu0/U632/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.52 r
+  u_core/u_executestage/u_alu0/U633/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.67 f
+  u_core/u_executestage/u_alu0/U634/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.71 r
+  u_core/u_executestage/u_alu0/U635/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       3.85 f
+  u_core/u_executestage/u_alu0/U373/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.89 r
+  u_core/u_executestage/u_alu0/U636/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.04 f
+  u_core/u_executestage/u_alu0/U357/X (SAEDRVT14_OAI21_3)
+                                                          0.04       4.08 r
+  u_core/u_executestage/u_alu0/U637/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       4.23 f
+  u_core/u_executestage/u_alu0/U638/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.26 r
+  u_core/u_executestage/u_alu0/U639/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.40 f
+  u_core/u_executestage/u_alu0/U640/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.44 r
+  u_core/u_executestage/u_alu0/U641/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       4.56 f
+  u_core/u_executestage/u_alu0/U642/X (SAEDRVT14_OAI21_2)
+                                                          0.06       4.61 r
+  u_core/u_executestage/u_alu0/U431/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.65 f
+  u_core/u_executestage/u_alu0/U355/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.67 r
+  u_core/u_executestage/u_alu0/U643/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       4.79 f
+  u_core/u_executestage/u_alu0/U644/X (SAEDRVT14_INV_S_2)
+                                                          0.06       4.84 r
+  u_core/u_executestage/u_alu0/U430/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.88 f
+  u_core/u_executestage/u_alu0/U429/X (SAEDRVT14_INV_4)
+                                                          0.04       4.92 r
+  u_core/u_executestage/u_alu0/U352/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.94 f
+  u_core/u_executestage/u_alu0/U427/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.97 r
+  u_core/u_executestage/u_alu0/U351/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       5.01 f
+  u_core/u_executestage/u_alu0/U370/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.02       5.03 r
+  u_core/u_executestage/u_alu0/U754/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       5.14 f
+  u_core/u_executestage/u_alu0/U755/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.21 r
+  u_core/u_executestage/u_alu0/U369/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.04       5.24 f
+  u_core/u_executestage/u_alu0/U419/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       5.27 r
+  u_core/u_executestage/u_alu0/U756/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       5.39 f
+  u_core/u_executestage/u_alu0/U757/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.44 r
+  u_core/u_executestage/u_alu0/U319/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       5.48 f
+  u_core/u_executestage/u_alu0/U807/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.51 r
+  u_core/u_executestage/u_alu0/U808/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.05       5.56 f
+  u_core/u_executestage/u_alu0/U350/X (SAEDRVT14_OAI21_3)
+                                                          0.03       5.59 r
+  u_core/u_executestage/u_alu0/U857/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       5.74 f
+  u_core/u_executestage/u_alu0/U364/X (SAEDRVT14_OAI21_2)
+                                                          0.05       5.79 r
+  u_core/u_executestage/u_alu0/U1357/X (SAEDRVT14_AO21B_0P5)
+                                                          0.08       5.87 f
+  u_core/u_executestage/u_alu0/U399/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.91 r
+  u_core/u_executestage/u_alu0/U1358/X (SAEDRVT14_AOI21_1P5)
+                                                          0.06       5.97 f
+  u_core/u_executestage/u_alu0/U362/X (SAEDRVT14_OA221_U_0P5)
+                                                          0.07       6.04 f
+  u_core/u_executestage/u_alu0/U1359/X (SAEDRVT14_OAI21_0P5)
+                                                          0.05       6.08 r
+  u_core/u_executestage/u_alu0/U395/X (SAEDRVT14_AOI21_1P5)
+                                                          0.05       6.13 f
+  u_core/u_executestage/u_alu0/U294/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       6.16 r
+  u_core/u_executestage/u_alu0/res_o[31] (alu)            0.00       6.16 r
+  u_core/u_executestage/alu_res_out[31] (execute)         0.00       6.16 r
+  u_core/u_fetchstage/next_address[31] (fetch)            0.00       6.16 r
+  u_core/u_fetchstage/u_pc0/next_address[31] (pc)         0.00       6.16 r
+  u_core/u_fetchstage/u_pc0/U38/X (SAEDRVT14_AO21_1)      0.03       6.19 r
+  u_core/u_fetchstage/u_pc0/address_out_reg[31]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       6.19 r
+  data arrival time                                                  6.19
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_core/u_fetchstage/u_pc0/address_out_reg[31]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       6.20 r
+  library setup time                                      0.00       6.20
+  data required time                                                 6.20
+  --------------------------------------------------------------------------
+  data required time                                                 6.20
+  data arrival time                                                 -6.19
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.01
+
+
+  Startpoint: u_core/u_executepipeline/instruction_reg[9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_core/u_fetchstage/u_pc0/address_out_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: REGS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  u_core/u_executepipeline/instruction_reg[9]/CK (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       1.50 r
+  u_core/u_executepipeline/instruction_reg[9]/Q (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.09       1.59 r
+  u_core/u_executepipeline/instruction_out[9] (execute_pipe)
+                                                          0.00       1.59 r
+  u_core/U40/X (SAEDRVT14_INV_S_2)                        0.04       1.64 f
+  u_core/U41/X (SAEDRVT14_OAI22_1)                        0.04       1.68 r
+  u_core/U7/X (SAEDRVT14_AO221_0P5)                       0.05       1.73 r
+  u_core/U45/X (SAEDRVT14_OR3_4)                          0.04       1.77 r
+  u_core/U46/X (SAEDRVT14_BUF_S_6)                        0.05       1.81 r
+  u_core/U53/X (SAEDRVT14_MUX2_2)                         0.10       1.91 f
+  u_core/u_executestage/b_i[1] (execute)                  0.00       1.91 f
+  u_core/u_executestage/u_alu0/b_i[1] (alu)               0.00       1.91 f
+  u_core/u_executestage/u_alu0/U586/X (SAEDRVT14_INV_S_2)
+                                                          0.07       1.99 r
+  u_core/u_executestage/u_alu0/U385/X (SAEDRVT14_AO21_1)
+                                                          0.04       2.03 r
+  u_core/u_executestage/u_alu0/U470/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.06 f
+  u_core/u_executestage/u_alu0/U469/X (SAEDRVT14_OAI21_2)
+                                                          0.03       2.09 r
+  u_core/u_executestage/u_alu0/U383/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.13 f
+  u_core/u_executestage/u_alu0/U382/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.17 r
+  u_core/u_executestage/u_alu0/U465/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.19 f
+  u_core/u_executestage/u_alu0/U620/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.24 r
+  u_core/u_executestage/u_alu0/U378/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.28 f
+  u_core/u_executestage/u_alu0/U358/X (SAEDRVT14_OAI21_4)
+                                                          0.03       2.31 r
+  u_core/u_executestage/u_alu0/U622/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.33 f
+  u_core/u_executestage/u_alu0/U322/X (SAEDRVT14_INV_4)
+                                                          0.03       2.36 r
+  u_core/u_executestage/u_alu0/U623/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       2.39 f
+  u_core/u_executestage/u_alu0/U624/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.41 r
+  u_core/u_executestage/u_alu0/U625/X (SAEDRVT14_AO21B_0P5)
+                                                          0.13       2.54 f
+  u_core/u_executestage/u_alu0/U457/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.58 r
+  u_core/u_executestage/u_alu0/U626/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       2.73 f
+  u_core/u_executestage/u_alu0/U453/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.77 r
+  u_core/u_executestage/u_alu0/U627/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       2.91 f
+  u_core/u_executestage/u_alu0/U450/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.95 r
+  u_core/u_executestage/u_alu0/U628/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.10 f
+  u_core/u_executestage/u_alu0/U447/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.14 r
+  u_core/u_executestage/u_alu0/U629/X (SAEDRVT14_AO21B_0P5)
+                                                          0.16       3.30 f
+  u_core/u_executestage/u_alu0/U630/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.34 r
+  u_core/u_executestage/u_alu0/U631/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.49 f
+  u_core/u_executestage/u_alu0/U632/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.52 r
+  u_core/u_executestage/u_alu0/U633/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.67 f
+  u_core/u_executestage/u_alu0/U634/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.71 r
+  u_core/u_executestage/u_alu0/U635/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       3.85 f
+  u_core/u_executestage/u_alu0/U373/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.89 r
+  u_core/u_executestage/u_alu0/U636/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.04 f
+  u_core/u_executestage/u_alu0/U357/X (SAEDRVT14_OAI21_3)
+                                                          0.04       4.08 r
+  u_core/u_executestage/u_alu0/U637/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       4.23 f
+  u_core/u_executestage/u_alu0/U638/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.26 r
+  u_core/u_executestage/u_alu0/U639/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.40 f
+  u_core/u_executestage/u_alu0/U640/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.44 r
+  u_core/u_executestage/u_alu0/U641/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       4.56 f
+  u_core/u_executestage/u_alu0/U642/X (SAEDRVT14_OAI21_2)
+                                                          0.06       4.61 r
+  u_core/u_executestage/u_alu0/U431/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.65 f
+  u_core/u_executestage/u_alu0/U355/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.67 r
+  u_core/u_executestage/u_alu0/U643/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       4.79 f
+  u_core/u_executestage/u_alu0/U644/X (SAEDRVT14_INV_S_2)
+                                                          0.06       4.84 r
+  u_core/u_executestage/u_alu0/U430/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.88 f
+  u_core/u_executestage/u_alu0/U429/X (SAEDRVT14_INV_4)
+                                                          0.04       4.92 r
+  u_core/u_executestage/u_alu0/U352/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.94 f
+  u_core/u_executestage/u_alu0/U427/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.97 r
+  u_core/u_executestage/u_alu0/U351/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       5.01 f
+  u_core/u_executestage/u_alu0/U370/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.02       5.03 r
+  u_core/u_executestage/u_alu0/U754/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       5.14 f
+  u_core/u_executestage/u_alu0/U755/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.21 r
+  u_core/u_executestage/u_alu0/U369/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.04       5.24 f
+  u_core/u_executestage/u_alu0/U419/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       5.27 r
+  u_core/u_executestage/u_alu0/U756/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       5.39 f
+  u_core/u_executestage/u_alu0/U757/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.44 r
+  u_core/u_executestage/u_alu0/U319/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       5.48 f
+  u_core/u_executestage/u_alu0/U807/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.51 r
+  u_core/u_executestage/u_alu0/U808/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.05       5.56 f
+  u_core/u_executestage/u_alu0/U350/X (SAEDRVT14_OAI21_3)
+                                                          0.03       5.59 r
+  u_core/u_executestage/u_alu0/U857/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       5.74 f
+  u_core/u_executestage/u_alu0/U364/X (SAEDRVT14_OAI21_2)
+                                                          0.05       5.79 r
+  u_core/u_executestage/u_alu0/U1357/X (SAEDRVT14_AO21B_0P5)
+                                                          0.08       5.87 f
+  u_core/u_executestage/u_alu0/U399/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.91 r
+  u_core/u_executestage/u_alu0/U1358/X (SAEDRVT14_AOI21_1P5)
+                                                          0.06       5.97 f
+  u_core/u_executestage/u_alu0/U362/X (SAEDRVT14_OA221_U_0P5)
+                                                          0.07       6.04 f
+  u_core/u_executestage/u_alu0/U1359/X (SAEDRVT14_OAI21_0P5)
+                                                          0.05       6.08 r
+  u_core/u_executestage/u_alu0/U395/X (SAEDRVT14_AOI21_1P5)
+                                                          0.05       6.13 f
+  u_core/u_executestage/u_alu0/U294/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       6.16 r
+  u_core/u_executestage/u_alu0/res_o[31] (alu)            0.00       6.16 r
+  u_core/u_executestage/alu_res_out[31] (execute)         0.00       6.16 r
+  u_core/u_fetchstage/next_address[31] (fetch)            0.00       6.16 r
+  u_core/u_fetchstage/u_pc0/next_address[31] (pc)         0.00       6.16 r
+  u_core/u_fetchstage/u_pc0/U38/X (SAEDRVT14_AO21_1)      0.03       6.19 r
+  u_core/u_fetchstage/u_pc0/address_out_reg[31]/D (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       6.19 r
+  data arrival time                                                  6.19
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_core/u_fetchstage/u_pc0/address_out_reg[31]/CK (SAEDRVT14_FDPRBQ_V2LP_1)
+                                                          0.00       6.20 r
+  library setup time                                      0.00       6.20
+  data required time                                                 6.20
+  --------------------------------------------------------------------------
+  data required time                                                 6.20
+  data arrival time                                                 -6.19
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.01
+
+
+  Startpoint: u_core/u_executepipeline/instruction_reg[9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_core/u_executepipeline/alu_result_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: REGS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  u_core/u_executepipeline/instruction_reg[9]/CK (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       1.50 r
+  u_core/u_executepipeline/instruction_reg[9]/Q (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.09       1.59 r
+  u_core/u_executepipeline/instruction_out[9] (execute_pipe)
+                                                          0.00       1.59 r
+  u_core/U40/X (SAEDRVT14_INV_S_2)                        0.04       1.64 f
+  u_core/U41/X (SAEDRVT14_OAI22_1)                        0.04       1.68 r
+  u_core/U7/X (SAEDRVT14_AO221_0P5)                       0.05       1.73 r
+  u_core/U45/X (SAEDRVT14_OR3_4)                          0.04       1.77 r
+  u_core/U46/X (SAEDRVT14_BUF_S_6)                        0.05       1.81 r
+  u_core/U53/X (SAEDRVT14_MUX2_2)                         0.10       1.91 f
+  u_core/u_executestage/b_i[1] (execute)                  0.00       1.91 f
+  u_core/u_executestage/u_alu0/b_i[1] (alu)               0.00       1.91 f
+  u_core/u_executestage/u_alu0/U586/X (SAEDRVT14_INV_S_2)
+                                                          0.07       1.99 r
+  u_core/u_executestage/u_alu0/U385/X (SAEDRVT14_AO21_1)
+                                                          0.04       2.03 r
+  u_core/u_executestage/u_alu0/U470/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.06 f
+  u_core/u_executestage/u_alu0/U469/X (SAEDRVT14_OAI21_2)
+                                                          0.03       2.09 r
+  u_core/u_executestage/u_alu0/U383/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.13 f
+  u_core/u_executestage/u_alu0/U382/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.17 r
+  u_core/u_executestage/u_alu0/U465/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.19 f
+  u_core/u_executestage/u_alu0/U620/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.24 r
+  u_core/u_executestage/u_alu0/U378/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.28 f
+  u_core/u_executestage/u_alu0/U358/X (SAEDRVT14_OAI21_4)
+                                                          0.03       2.31 r
+  u_core/u_executestage/u_alu0/U622/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.33 f
+  u_core/u_executestage/u_alu0/U322/X (SAEDRVT14_INV_4)
+                                                          0.03       2.36 r
+  u_core/u_executestage/u_alu0/U623/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       2.39 f
+  u_core/u_executestage/u_alu0/U624/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.41 r
+  u_core/u_executestage/u_alu0/U625/X (SAEDRVT14_AO21B_0P5)
+                                                          0.13       2.54 f
+  u_core/u_executestage/u_alu0/U457/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.58 r
+  u_core/u_executestage/u_alu0/U626/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       2.73 f
+  u_core/u_executestage/u_alu0/U453/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.77 r
+  u_core/u_executestage/u_alu0/U627/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       2.91 f
+  u_core/u_executestage/u_alu0/U450/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.95 r
+  u_core/u_executestage/u_alu0/U628/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.10 f
+  u_core/u_executestage/u_alu0/U447/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.14 r
+  u_core/u_executestage/u_alu0/U629/X (SAEDRVT14_AO21B_0P5)
+                                                          0.16       3.30 f
+  u_core/u_executestage/u_alu0/U630/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.34 r
+  u_core/u_executestage/u_alu0/U631/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.49 f
+  u_core/u_executestage/u_alu0/U632/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.52 r
+  u_core/u_executestage/u_alu0/U633/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.67 f
+  u_core/u_executestage/u_alu0/U634/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.71 r
+  u_core/u_executestage/u_alu0/U635/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       3.85 f
+  u_core/u_executestage/u_alu0/U373/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.89 r
+  u_core/u_executestage/u_alu0/U636/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.04 f
+  u_core/u_executestage/u_alu0/U357/X (SAEDRVT14_OAI21_3)
+                                                          0.04       4.08 r
+  u_core/u_executestage/u_alu0/U637/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       4.23 f
+  u_core/u_executestage/u_alu0/U638/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.26 r
+  u_core/u_executestage/u_alu0/U639/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.40 f
+  u_core/u_executestage/u_alu0/U640/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.44 r
+  u_core/u_executestage/u_alu0/U641/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       4.56 f
+  u_core/u_executestage/u_alu0/U642/X (SAEDRVT14_OAI21_2)
+                                                          0.06       4.61 r
+  u_core/u_executestage/u_alu0/U431/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.65 f
+  u_core/u_executestage/u_alu0/U355/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.67 r
+  u_core/u_executestage/u_alu0/U643/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       4.79 f
+  u_core/u_executestage/u_alu0/U644/X (SAEDRVT14_INV_S_2)
+                                                          0.06       4.84 r
+  u_core/u_executestage/u_alu0/U430/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.88 f
+  u_core/u_executestage/u_alu0/U429/X (SAEDRVT14_INV_4)
+                                                          0.04       4.92 r
+  u_core/u_executestage/u_alu0/U352/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.94 f
+  u_core/u_executestage/u_alu0/U427/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.97 r
+  u_core/u_executestage/u_alu0/U351/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       5.01 f
+  u_core/u_executestage/u_alu0/U370/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.02       5.03 r
+  u_core/u_executestage/u_alu0/U754/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       5.14 f
+  u_core/u_executestage/u_alu0/U755/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.21 r
+  u_core/u_executestage/u_alu0/U369/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.04       5.24 f
+  u_core/u_executestage/u_alu0/U419/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       5.27 r
+  u_core/u_executestage/u_alu0/U756/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       5.39 f
+  u_core/u_executestage/u_alu0/U757/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.44 r
+  u_core/u_executestage/u_alu0/U319/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       5.48 f
+  u_core/u_executestage/u_alu0/U807/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.51 r
+  u_core/u_executestage/u_alu0/U808/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.05       5.56 f
+  u_core/u_executestage/u_alu0/U350/X (SAEDRVT14_OAI21_3)
+                                                          0.03       5.59 r
+  u_core/u_executestage/u_alu0/U857/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       5.74 f
+  u_core/u_executestage/u_alu0/U364/X (SAEDRVT14_OAI21_2)
+                                                          0.05       5.79 r
+  u_core/u_executestage/u_alu0/U1357/X (SAEDRVT14_AO21B_0P5)
+                                                          0.08       5.87 f
+  u_core/u_executestage/u_alu0/U399/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.91 r
+  u_core/u_executestage/u_alu0/U1358/X (SAEDRVT14_AOI21_1P5)
+                                                          0.06       5.97 f
+  u_core/u_executestage/u_alu0/U362/X (SAEDRVT14_OA221_U_0P5)
+                                                          0.07       6.04 f
+  u_core/u_executestage/u_alu0/U1359/X (SAEDRVT14_OAI21_0P5)
+                                                          0.05       6.08 r
+  u_core/u_executestage/u_alu0/U395/X (SAEDRVT14_AOI21_1P5)
+                                                          0.05       6.13 f
+  u_core/u_executestage/u_alu0/U294/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       6.16 r
+  u_core/u_executestage/u_alu0/res_o[31] (alu)            0.00       6.16 r
+  u_core/u_executestage/alu_res_out[31] (execute)         0.00       6.16 r
+  u_core/u_executepipeline/alu_res[31] (execute_pipe)     0.00       6.16 r
+  u_core/u_executepipeline/alu_result_reg[31]/D (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       6.16 r
+  data arrival time                                                  6.16
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_core/u_executepipeline/alu_result_reg[31]/CK (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       6.20 r
+  library setup time                                     -0.02       6.18
+  data required time                                                 6.18
+  --------------------------------------------------------------------------
+  data required time                                                 6.18
+  data arrival time                                                 -6.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.02
+
+
+  Startpoint: u_core/u_executepipeline/instruction_reg[9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_core/u_executepipeline/alu_result_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: REGS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  u_core/u_executepipeline/instruction_reg[9]/CK (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       1.50 r
+  u_core/u_executepipeline/instruction_reg[9]/Q (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.09       1.59 r
+  u_core/u_executepipeline/instruction_out[9] (execute_pipe)
+                                                          0.00       1.59 r
+  u_core/U40/X (SAEDRVT14_INV_S_2)                        0.04       1.64 f
+  u_core/U41/X (SAEDRVT14_OAI22_1)                        0.04       1.68 r
+  u_core/U7/X (SAEDRVT14_AO221_0P5)                       0.05       1.73 r
+  u_core/U45/X (SAEDRVT14_OR3_4)                          0.04       1.77 r
+  u_core/U46/X (SAEDRVT14_BUF_S_6)                        0.05       1.81 r
+  u_core/U53/X (SAEDRVT14_MUX2_2)                         0.10       1.91 f
+  u_core/u_executestage/b_i[1] (execute)                  0.00       1.91 f
+  u_core/u_executestage/u_alu0/b_i[1] (alu)               0.00       1.91 f
+  u_core/u_executestage/u_alu0/U586/X (SAEDRVT14_INV_S_2)
+                                                          0.07       1.99 r
+  u_core/u_executestage/u_alu0/U385/X (SAEDRVT14_AO21_1)
+                                                          0.04       2.03 r
+  u_core/u_executestage/u_alu0/U470/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.06 f
+  u_core/u_executestage/u_alu0/U469/X (SAEDRVT14_OAI21_2)
+                                                          0.03       2.09 r
+  u_core/u_executestage/u_alu0/U383/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.13 f
+  u_core/u_executestage/u_alu0/U382/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.17 r
+  u_core/u_executestage/u_alu0/U465/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.19 f
+  u_core/u_executestage/u_alu0/U620/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.24 r
+  u_core/u_executestage/u_alu0/U378/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.28 f
+  u_core/u_executestage/u_alu0/U358/X (SAEDRVT14_OAI21_4)
+                                                          0.03       2.31 r
+  u_core/u_executestage/u_alu0/U622/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.33 f
+  u_core/u_executestage/u_alu0/U322/X (SAEDRVT14_INV_4)
+                                                          0.03       2.36 r
+  u_core/u_executestage/u_alu0/U623/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       2.39 f
+  u_core/u_executestage/u_alu0/U624/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.41 r
+  u_core/u_executestage/u_alu0/U625/X (SAEDRVT14_AO21B_0P5)
+                                                          0.13       2.54 f
+  u_core/u_executestage/u_alu0/U457/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.58 r
+  u_core/u_executestage/u_alu0/U626/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       2.73 f
+  u_core/u_executestage/u_alu0/U453/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.77 r
+  u_core/u_executestage/u_alu0/U627/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       2.91 f
+  u_core/u_executestage/u_alu0/U450/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.95 r
+  u_core/u_executestage/u_alu0/U628/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.10 f
+  u_core/u_executestage/u_alu0/U447/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.14 r
+  u_core/u_executestage/u_alu0/U629/X (SAEDRVT14_AO21B_0P5)
+                                                          0.16       3.30 f
+  u_core/u_executestage/u_alu0/U630/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.34 r
+  u_core/u_executestage/u_alu0/U631/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.49 f
+  u_core/u_executestage/u_alu0/U632/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.52 r
+  u_core/u_executestage/u_alu0/U633/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.67 f
+  u_core/u_executestage/u_alu0/U634/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.71 r
+  u_core/u_executestage/u_alu0/U635/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       3.85 f
+  u_core/u_executestage/u_alu0/U373/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.89 r
+  u_core/u_executestage/u_alu0/U636/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.04 f
+  u_core/u_executestage/u_alu0/U357/X (SAEDRVT14_OAI21_3)
+                                                          0.04       4.08 r
+  u_core/u_executestage/u_alu0/U637/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       4.23 f
+  u_core/u_executestage/u_alu0/U638/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.26 r
+  u_core/u_executestage/u_alu0/U639/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.40 f
+  u_core/u_executestage/u_alu0/U640/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.44 r
+  u_core/u_executestage/u_alu0/U641/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       4.56 f
+  u_core/u_executestage/u_alu0/U642/X (SAEDRVT14_OAI21_2)
+                                                          0.06       4.61 r
+  u_core/u_executestage/u_alu0/U431/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.65 f
+  u_core/u_executestage/u_alu0/U355/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.67 r
+  u_core/u_executestage/u_alu0/U643/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       4.79 f
+  u_core/u_executestage/u_alu0/U644/X (SAEDRVT14_INV_S_2)
+                                                          0.06       4.84 r
+  u_core/u_executestage/u_alu0/U430/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.88 f
+  u_core/u_executestage/u_alu0/U429/X (SAEDRVT14_INV_4)
+                                                          0.04       4.92 r
+  u_core/u_executestage/u_alu0/U352/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.94 f
+  u_core/u_executestage/u_alu0/U427/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.97 r
+  u_core/u_executestage/u_alu0/U351/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       5.01 f
+  u_core/u_executestage/u_alu0/U370/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.02       5.03 r
+  u_core/u_executestage/u_alu0/U754/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       5.14 f
+  u_core/u_executestage/u_alu0/U755/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.21 r
+  u_core/u_executestage/u_alu0/U369/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.04       5.24 f
+  u_core/u_executestage/u_alu0/U419/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       5.27 r
+  u_core/u_executestage/u_alu0/U756/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       5.39 f
+  u_core/u_executestage/u_alu0/U757/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.44 r
+  u_core/u_executestage/u_alu0/U319/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       5.48 f
+  u_core/u_executestage/u_alu0/U807/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.51 r
+  u_core/u_executestage/u_alu0/U808/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.05       5.56 f
+  u_core/u_executestage/u_alu0/U350/X (SAEDRVT14_OAI21_3)
+                                                          0.03       5.59 r
+  u_core/u_executestage/u_alu0/U857/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       5.74 f
+  u_core/u_executestage/u_alu0/U364/X (SAEDRVT14_OAI21_2)
+                                                          0.05       5.79 r
+  u_core/u_executestage/u_alu0/U1357/X (SAEDRVT14_AO21B_0P5)
+                                                          0.08       5.87 f
+  u_core/u_executestage/u_alu0/U399/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.91 r
+  u_core/u_executestage/u_alu0/U1358/X (SAEDRVT14_AOI21_1P5)
+                                                          0.06       5.97 f
+  u_core/u_executestage/u_alu0/U362/X (SAEDRVT14_OA221_U_0P5)
+                                                          0.07       6.04 f
+  u_core/u_executestage/u_alu0/U1359/X (SAEDRVT14_OAI21_0P5)
+                                                          0.05       6.08 r
+  u_core/u_executestage/u_alu0/U395/X (SAEDRVT14_AOI21_1P5)
+                                                          0.05       6.13 f
+  u_core/u_executestage/u_alu0/U294/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       6.16 r
+  u_core/u_executestage/u_alu0/res_o[31] (alu)            0.00       6.16 r
+  u_core/u_executestage/alu_res_out[31] (execute)         0.00       6.16 r
+  u_core/u_executepipeline/alu_res[31] (execute_pipe)     0.00       6.16 r
+  u_core/u_executepipeline/alu_result_reg[31]/D (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       6.16 r
+  data arrival time                                                  6.16
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_core/u_executepipeline/alu_result_reg[31]/CK (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       6.20 r
+  library setup time                                     -0.02       6.18
+  data required time                                                 6.18
+  --------------------------------------------------------------------------
+  data required time                                                 6.18
+  data arrival time                                                 -6.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.02
+
+
+  Startpoint: u_core/u_executepipeline/instruction_reg[9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_core/u_executepipeline/alu_result_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: REGS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  u_core/u_executepipeline/instruction_reg[9]/CK (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       1.50 r
+  u_core/u_executepipeline/instruction_reg[9]/Q (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.09       1.59 r
+  u_core/u_executepipeline/instruction_out[9] (execute_pipe)
+                                                          0.00       1.59 r
+  u_core/U40/X (SAEDRVT14_INV_S_2)                        0.04       1.64 f
+  u_core/U41/X (SAEDRVT14_OAI22_1)                        0.04       1.68 r
+  u_core/U7/X (SAEDRVT14_AO221_0P5)                       0.05       1.73 r
+  u_core/U45/X (SAEDRVT14_OR3_4)                          0.04       1.77 r
+  u_core/U46/X (SAEDRVT14_BUF_S_6)                        0.05       1.81 r
+  u_core/U53/X (SAEDRVT14_MUX2_2)                         0.10       1.91 f
+  u_core/u_executestage/b_i[1] (execute)                  0.00       1.91 f
+  u_core/u_executestage/u_alu0/b_i[1] (alu)               0.00       1.91 f
+  u_core/u_executestage/u_alu0/U586/X (SAEDRVT14_INV_S_2)
+                                                          0.07       1.99 r
+  u_core/u_executestage/u_alu0/U385/X (SAEDRVT14_AO21_1)
+                                                          0.04       2.03 r
+  u_core/u_executestage/u_alu0/U470/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.06 f
+  u_core/u_executestage/u_alu0/U469/X (SAEDRVT14_OAI21_2)
+                                                          0.03       2.09 r
+  u_core/u_executestage/u_alu0/U383/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.13 f
+  u_core/u_executestage/u_alu0/U382/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.17 r
+  u_core/u_executestage/u_alu0/U465/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.19 f
+  u_core/u_executestage/u_alu0/U620/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.24 r
+  u_core/u_executestage/u_alu0/U378/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.28 f
+  u_core/u_executestage/u_alu0/U358/X (SAEDRVT14_OAI21_4)
+                                                          0.03       2.31 r
+  u_core/u_executestage/u_alu0/U622/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.33 f
+  u_core/u_executestage/u_alu0/U322/X (SAEDRVT14_INV_4)
+                                                          0.03       2.36 r
+  u_core/u_executestage/u_alu0/U623/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       2.39 f
+  u_core/u_executestage/u_alu0/U624/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.41 r
+  u_core/u_executestage/u_alu0/U625/X (SAEDRVT14_AO21B_0P5)
+                                                          0.13       2.54 f
+  u_core/u_executestage/u_alu0/U457/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.58 r
+  u_core/u_executestage/u_alu0/U626/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       2.73 f
+  u_core/u_executestage/u_alu0/U453/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.77 r
+  u_core/u_executestage/u_alu0/U627/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       2.91 f
+  u_core/u_executestage/u_alu0/U450/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.95 r
+  u_core/u_executestage/u_alu0/U628/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.10 f
+  u_core/u_executestage/u_alu0/U447/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.14 r
+  u_core/u_executestage/u_alu0/U629/X (SAEDRVT14_AO21B_0P5)
+                                                          0.16       3.30 f
+  u_core/u_executestage/u_alu0/U630/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.34 r
+  u_core/u_executestage/u_alu0/U631/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.49 f
+  u_core/u_executestage/u_alu0/U632/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.52 r
+  u_core/u_executestage/u_alu0/U633/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.67 f
+  u_core/u_executestage/u_alu0/U634/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.71 r
+  u_core/u_executestage/u_alu0/U635/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       3.85 f
+  u_core/u_executestage/u_alu0/U373/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.89 r
+  u_core/u_executestage/u_alu0/U636/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.04 f
+  u_core/u_executestage/u_alu0/U357/X (SAEDRVT14_OAI21_3)
+                                                          0.04       4.08 r
+  u_core/u_executestage/u_alu0/U637/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       4.23 f
+  u_core/u_executestage/u_alu0/U638/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.26 r
+  u_core/u_executestage/u_alu0/U639/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.40 f
+  u_core/u_executestage/u_alu0/U640/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.44 r
+  u_core/u_executestage/u_alu0/U641/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       4.56 f
+  u_core/u_executestage/u_alu0/U642/X (SAEDRVT14_OAI21_2)
+                                                          0.06       4.61 r
+  u_core/u_executestage/u_alu0/U431/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.65 f
+  u_core/u_executestage/u_alu0/U355/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.67 r
+  u_core/u_executestage/u_alu0/U643/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       4.79 f
+  u_core/u_executestage/u_alu0/U644/X (SAEDRVT14_INV_S_2)
+                                                          0.06       4.84 r
+  u_core/u_executestage/u_alu0/U430/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.88 f
+  u_core/u_executestage/u_alu0/U429/X (SAEDRVT14_INV_4)
+                                                          0.04       4.92 r
+  u_core/u_executestage/u_alu0/U352/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.94 f
+  u_core/u_executestage/u_alu0/U427/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.97 r
+  u_core/u_executestage/u_alu0/U351/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       5.01 f
+  u_core/u_executestage/u_alu0/U370/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.02       5.03 r
+  u_core/u_executestage/u_alu0/U754/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       5.14 f
+  u_core/u_executestage/u_alu0/U755/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.21 r
+  u_core/u_executestage/u_alu0/U369/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.04       5.24 f
+  u_core/u_executestage/u_alu0/U419/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       5.27 r
+  u_core/u_executestage/u_alu0/U756/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       5.39 f
+  u_core/u_executestage/u_alu0/U757/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.44 r
+  u_core/u_executestage/u_alu0/U319/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       5.48 f
+  u_core/u_executestage/u_alu0/U807/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.51 r
+  u_core/u_executestage/u_alu0/U808/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.05       5.56 f
+  u_core/u_executestage/u_alu0/U350/X (SAEDRVT14_OAI21_3)
+                                                          0.03       5.59 r
+  u_core/u_executestage/u_alu0/U857/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       5.74 f
+  u_core/u_executestage/u_alu0/U364/X (SAEDRVT14_OAI21_2)
+                                                          0.05       5.79 r
+  u_core/u_executestage/u_alu0/U1357/X (SAEDRVT14_AO21B_0P5)
+                                                          0.08       5.87 f
+  u_core/u_executestage/u_alu0/U399/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.91 r
+  u_core/u_executestage/u_alu0/U1358/X (SAEDRVT14_AOI21_1P5)
+                                                          0.06       5.97 f
+  u_core/u_executestage/u_alu0/U362/X (SAEDRVT14_OA221_U_0P5)
+                                                          0.07       6.04 f
+  u_core/u_executestage/u_alu0/U1359/X (SAEDRVT14_OAI21_0P5)
+                                                          0.05       6.08 r
+  u_core/u_executestage/u_alu0/U395/X (SAEDRVT14_AOI21_1P5)
+                                                          0.05       6.13 f
+  u_core/u_executestage/u_alu0/U294/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       6.16 r
+  u_core/u_executestage/u_alu0/res_o[31] (alu)            0.00       6.16 r
+  u_core/u_executestage/alu_res_out[31] (execute)         0.00       6.16 r
+  u_core/u_executepipeline/alu_res[31] (execute_pipe)     0.00       6.16 r
+  u_core/u_executepipeline/alu_result_reg[31]/D (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       6.16 r
+  data arrival time                                                  6.16
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_core/u_executepipeline/alu_result_reg[31]/CK (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       6.20 r
+  library setup time                                     -0.02       6.18
+  data required time                                                 6.18
+  --------------------------------------------------------------------------
+  data required time                                                 6.18
+  data arrival time                                                 -6.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.02
+
+
+  Startpoint: u_core/u_executepipeline/instruction_reg[9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_core/u_executepipeline/alu_result_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: REGS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  u_core/u_executepipeline/instruction_reg[9]/CK (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       1.50 r
+  u_core/u_executepipeline/instruction_reg[9]/Q (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.09       1.59 r
+  u_core/u_executepipeline/instruction_out[9] (execute_pipe)
+                                                          0.00       1.59 r
+  u_core/U40/X (SAEDRVT14_INV_S_2)                        0.04       1.64 f
+  u_core/U41/X (SAEDRVT14_OAI22_1)                        0.04       1.68 r
+  u_core/U7/X (SAEDRVT14_AO221_0P5)                       0.05       1.73 r
+  u_core/U45/X (SAEDRVT14_OR3_4)                          0.04       1.77 r
+  u_core/U46/X (SAEDRVT14_BUF_S_6)                        0.05       1.81 r
+  u_core/U53/X (SAEDRVT14_MUX2_2)                         0.10       1.91 f
+  u_core/u_executestage/b_i[1] (execute)                  0.00       1.91 f
+  u_core/u_executestage/u_alu0/b_i[1] (alu)               0.00       1.91 f
+  u_core/u_executestage/u_alu0/U586/X (SAEDRVT14_INV_S_2)
+                                                          0.07       1.99 r
+  u_core/u_executestage/u_alu0/U385/X (SAEDRVT14_AO21_1)
+                                                          0.04       2.03 r
+  u_core/u_executestage/u_alu0/U470/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.06 f
+  u_core/u_executestage/u_alu0/U469/X (SAEDRVT14_OAI21_2)
+                                                          0.03       2.09 r
+  u_core/u_executestage/u_alu0/U383/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.13 f
+  u_core/u_executestage/u_alu0/U382/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.17 r
+  u_core/u_executestage/u_alu0/U465/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.19 f
+  u_core/u_executestage/u_alu0/U620/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.24 r
+  u_core/u_executestage/u_alu0/U378/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.28 f
+  u_core/u_executestage/u_alu0/U358/X (SAEDRVT14_OAI21_4)
+                                                          0.03       2.31 r
+  u_core/u_executestage/u_alu0/U622/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.33 f
+  u_core/u_executestage/u_alu0/U322/X (SAEDRVT14_INV_4)
+                                                          0.03       2.36 r
+  u_core/u_executestage/u_alu0/U623/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       2.39 f
+  u_core/u_executestage/u_alu0/U624/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.41 r
+  u_core/u_executestage/u_alu0/U625/X (SAEDRVT14_AO21B_0P5)
+                                                          0.13       2.54 f
+  u_core/u_executestage/u_alu0/U457/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.58 r
+  u_core/u_executestage/u_alu0/U626/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       2.73 f
+  u_core/u_executestage/u_alu0/U453/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.77 r
+  u_core/u_executestage/u_alu0/U627/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       2.91 f
+  u_core/u_executestage/u_alu0/U450/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.95 r
+  u_core/u_executestage/u_alu0/U628/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.10 f
+  u_core/u_executestage/u_alu0/U447/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.14 r
+  u_core/u_executestage/u_alu0/U629/X (SAEDRVT14_AO21B_0P5)
+                                                          0.16       3.30 f
+  u_core/u_executestage/u_alu0/U630/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.34 r
+  u_core/u_executestage/u_alu0/U631/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.49 f
+  u_core/u_executestage/u_alu0/U632/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.52 r
+  u_core/u_executestage/u_alu0/U633/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.67 f
+  u_core/u_executestage/u_alu0/U634/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.71 r
+  u_core/u_executestage/u_alu0/U635/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       3.85 f
+  u_core/u_executestage/u_alu0/U373/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.89 r
+  u_core/u_executestage/u_alu0/U636/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.04 f
+  u_core/u_executestage/u_alu0/U357/X (SAEDRVT14_OAI21_3)
+                                                          0.04       4.08 r
+  u_core/u_executestage/u_alu0/U637/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       4.23 f
+  u_core/u_executestage/u_alu0/U638/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.26 r
+  u_core/u_executestage/u_alu0/U639/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.40 f
+  u_core/u_executestage/u_alu0/U640/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.44 r
+  u_core/u_executestage/u_alu0/U641/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       4.56 f
+  u_core/u_executestage/u_alu0/U642/X (SAEDRVT14_OAI21_2)
+                                                          0.06       4.61 r
+  u_core/u_executestage/u_alu0/U431/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.65 f
+  u_core/u_executestage/u_alu0/U355/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.67 r
+  u_core/u_executestage/u_alu0/U643/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       4.79 f
+  u_core/u_executestage/u_alu0/U644/X (SAEDRVT14_INV_S_2)
+                                                          0.06       4.84 r
+  u_core/u_executestage/u_alu0/U430/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.88 f
+  u_core/u_executestage/u_alu0/U429/X (SAEDRVT14_INV_4)
+                                                          0.04       4.92 r
+  u_core/u_executestage/u_alu0/U352/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.94 f
+  u_core/u_executestage/u_alu0/U427/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.97 r
+  u_core/u_executestage/u_alu0/U351/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       5.01 f
+  u_core/u_executestage/u_alu0/U370/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.02       5.03 r
+  u_core/u_executestage/u_alu0/U754/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       5.14 f
+  u_core/u_executestage/u_alu0/U755/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.21 r
+  u_core/u_executestage/u_alu0/U369/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.04       5.24 f
+  u_core/u_executestage/u_alu0/U419/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       5.27 r
+  u_core/u_executestage/u_alu0/U756/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       5.39 f
+  u_core/u_executestage/u_alu0/U757/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.44 r
+  u_core/u_executestage/u_alu0/U319/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       5.48 f
+  u_core/u_executestage/u_alu0/U807/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.51 r
+  u_core/u_executestage/u_alu0/U808/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.05       5.56 f
+  u_core/u_executestage/u_alu0/U350/X (SAEDRVT14_OAI21_3)
+                                                          0.03       5.59 r
+  u_core/u_executestage/u_alu0/U857/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       5.74 f
+  u_core/u_executestage/u_alu0/U364/X (SAEDRVT14_OAI21_2)
+                                                          0.05       5.79 r
+  u_core/u_executestage/u_alu0/U1357/X (SAEDRVT14_AO21B_0P5)
+                                                          0.08       5.87 f
+  u_core/u_executestage/u_alu0/U399/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.91 r
+  u_core/u_executestage/u_alu0/U1358/X (SAEDRVT14_AOI21_1P5)
+                                                          0.06       5.97 f
+  u_core/u_executestage/u_alu0/U362/X (SAEDRVT14_OA221_U_0P5)
+                                                          0.07       6.04 f
+  u_core/u_executestage/u_alu0/U1359/X (SAEDRVT14_OAI21_0P5)
+                                                          0.05       6.08 r
+  u_core/u_executestage/u_alu0/U395/X (SAEDRVT14_AOI21_1P5)
+                                                          0.05       6.13 f
+  u_core/u_executestage/u_alu0/U294/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       6.16 r
+  u_core/u_executestage/u_alu0/res_o[31] (alu)            0.00       6.16 r
+  u_core/u_executestage/alu_res_out[31] (execute)         0.00       6.16 r
+  u_core/u_executepipeline/alu_res[31] (execute_pipe)     0.00       6.16 r
+  u_core/u_executepipeline/alu_result_reg[31]/D (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       6.16 r
+  data arrival time                                                  6.16
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_core/u_executepipeline/alu_result_reg[31]/CK (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       6.20 r
+  library setup time                                     -0.02       6.18
+  data required time                                                 6.18
+  --------------------------------------------------------------------------
+  data required time                                                 6.18
+  data arrival time                                                 -6.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.02
+
+
+  Startpoint: u_core/u_executepipeline/instruction_reg[9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: u_core/u_executepipeline/alu_result_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: REGS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  microprocessor     8000                  saed14rvt_base_ff0p715v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.50       1.50
+  u_core/u_executepipeline/instruction_reg[9]/CK (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       1.50 r
+  u_core/u_executepipeline/instruction_reg[9]/Q (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.09       1.59 r
+  u_core/u_executepipeline/instruction_out[9] (execute_pipe)
+                                                          0.00       1.59 r
+  u_core/U40/X (SAEDRVT14_INV_S_2)                        0.04       1.64 f
+  u_core/U41/X (SAEDRVT14_OAI22_1)                        0.04       1.68 r
+  u_core/U7/X (SAEDRVT14_AO221_0P5)                       0.05       1.73 r
+  u_core/U45/X (SAEDRVT14_OR3_4)                          0.04       1.77 r
+  u_core/U46/X (SAEDRVT14_BUF_S_6)                        0.05       1.81 r
+  u_core/U53/X (SAEDRVT14_MUX2_2)                         0.10       1.91 f
+  u_core/u_executestage/b_i[1] (execute)                  0.00       1.91 f
+  u_core/u_executestage/u_alu0/b_i[1] (alu)               0.00       1.91 f
+  u_core/u_executestage/u_alu0/U586/X (SAEDRVT14_INV_S_2)
+                                                          0.07       1.99 r
+  u_core/u_executestage/u_alu0/U385/X (SAEDRVT14_AO21_1)
+                                                          0.04       2.03 r
+  u_core/u_executestage/u_alu0/U470/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.06 f
+  u_core/u_executestage/u_alu0/U469/X (SAEDRVT14_OAI21_2)
+                                                          0.03       2.09 r
+  u_core/u_executestage/u_alu0/U383/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.13 f
+  u_core/u_executestage/u_alu0/U382/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.17 r
+  u_core/u_executestage/u_alu0/U465/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       2.19 f
+  u_core/u_executestage/u_alu0/U620/X (SAEDRVT14_INV_S_2)
+                                                          0.04       2.24 r
+  u_core/u_executestage/u_alu0/U378/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       2.28 f
+  u_core/u_executestage/u_alu0/U358/X (SAEDRVT14_OAI21_4)
+                                                          0.03       2.31 r
+  u_core/u_executestage/u_alu0/U622/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.33 f
+  u_core/u_executestage/u_alu0/U322/X (SAEDRVT14_INV_4)
+                                                          0.03       2.36 r
+  u_core/u_executestage/u_alu0/U623/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       2.39 f
+  u_core/u_executestage/u_alu0/U624/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.02       2.41 r
+  u_core/u_executestage/u_alu0/U625/X (SAEDRVT14_AO21B_0P5)
+                                                          0.13       2.54 f
+  u_core/u_executestage/u_alu0/U457/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.58 r
+  u_core/u_executestage/u_alu0/U626/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       2.73 f
+  u_core/u_executestage/u_alu0/U453/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.77 r
+  u_core/u_executestage/u_alu0/U627/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       2.91 f
+  u_core/u_executestage/u_alu0/U450/X (SAEDRVT14_OAI21_3)
+                                                          0.04       2.95 r
+  u_core/u_executestage/u_alu0/U628/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.10 f
+  u_core/u_executestage/u_alu0/U447/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.14 r
+  u_core/u_executestage/u_alu0/U629/X (SAEDRVT14_AO21B_0P5)
+                                                          0.16       3.30 f
+  u_core/u_executestage/u_alu0/U630/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.34 r
+  u_core/u_executestage/u_alu0/U631/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.49 f
+  u_core/u_executestage/u_alu0/U632/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.52 r
+  u_core/u_executestage/u_alu0/U633/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       3.67 f
+  u_core/u_executestage/u_alu0/U634/X (SAEDRVT14_OAI21_4)
+                                                          0.04       3.71 r
+  u_core/u_executestage/u_alu0/U635/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       3.85 f
+  u_core/u_executestage/u_alu0/U373/X (SAEDRVT14_OAI21_3)
+                                                          0.04       3.89 r
+  u_core/u_executestage/u_alu0/U636/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.04 f
+  u_core/u_executestage/u_alu0/U357/X (SAEDRVT14_OAI21_3)
+                                                          0.04       4.08 r
+  u_core/u_executestage/u_alu0/U637/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       4.23 f
+  u_core/u_executestage/u_alu0/U638/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.26 r
+  u_core/u_executestage/u_alu0/U639/X (SAEDRVT14_AO21B_0P5)
+                                                          0.14       4.40 f
+  u_core/u_executestage/u_alu0/U640/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.44 r
+  u_core/u_executestage/u_alu0/U641/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       4.56 f
+  u_core/u_executestage/u_alu0/U642/X (SAEDRVT14_OAI21_2)
+                                                          0.06       4.61 r
+  u_core/u_executestage/u_alu0/U431/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.65 f
+  u_core/u_executestage/u_alu0/U355/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.67 r
+  u_core/u_executestage/u_alu0/U643/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       4.79 f
+  u_core/u_executestage/u_alu0/U644/X (SAEDRVT14_INV_S_2)
+                                                          0.06       4.84 r
+  u_core/u_executestage/u_alu0/U430/X (SAEDRVT14_OAI21_4)
+                                                          0.04       4.88 f
+  u_core/u_executestage/u_alu0/U429/X (SAEDRVT14_INV_4)
+                                                          0.04       4.92 r
+  u_core/u_executestage/u_alu0/U352/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       4.94 f
+  u_core/u_executestage/u_alu0/U427/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       4.97 r
+  u_core/u_executestage/u_alu0/U351/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.03       5.01 f
+  u_core/u_executestage/u_alu0/U370/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.02       5.03 r
+  u_core/u_executestage/u_alu0/U754/X (SAEDRVT14_AO21B_0P5)
+                                                          0.11       5.14 f
+  u_core/u_executestage/u_alu0/U755/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.21 r
+  u_core/u_executestage/u_alu0/U369/X (SAEDRVT14_OAI21_V1_8)
+                                                          0.04       5.24 f
+  u_core/u_executestage/u_alu0/U419/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       5.27 r
+  u_core/u_executestage/u_alu0/U756/X (SAEDRVT14_AO21B_0P5)
+                                                          0.12       5.39 f
+  u_core/u_executestage/u_alu0/U757/X (SAEDRVT14_INV_S_2)
+                                                          0.06       5.44 r
+  u_core/u_executestage/u_alu0/U319/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.04       5.48 f
+  u_core/u_executestage/u_alu0/U807/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.51 r
+  u_core/u_executestage/u_alu0/U808/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.05       5.56 f
+  u_core/u_executestage/u_alu0/U350/X (SAEDRVT14_OAI21_3)
+                                                          0.03       5.59 r
+  u_core/u_executestage/u_alu0/U857/X (SAEDRVT14_AO21B_0P5)
+                                                          0.15       5.74 f
+  u_core/u_executestage/u_alu0/U364/X (SAEDRVT14_OAI21_2)
+                                                          0.05       5.79 r
+  u_core/u_executestage/u_alu0/U1357/X (SAEDRVT14_AO21B_0P5)
+                                                          0.08       5.87 f
+  u_core/u_executestage/u_alu0/U399/X (SAEDRVT14_OAI21_2)
+                                                          0.04       5.91 r
+  u_core/u_executestage/u_alu0/U1358/X (SAEDRVT14_AOI21_1P5)
+                                                          0.06       5.97 f
+  u_core/u_executestage/u_alu0/U362/X (SAEDRVT14_OA221_U_0P5)
+                                                          0.07       6.04 f
+  u_core/u_executestage/u_alu0/U1359/X (SAEDRVT14_OAI21_0P5)
+                                                          0.05       6.08 r
+  u_core/u_executestage/u_alu0/U395/X (SAEDRVT14_AOI21_1P5)
+                                                          0.05       6.13 f
+  u_core/u_executestage/u_alu0/U294/X (SAEDRVT14_OAI21_V1_4)
+                                                          0.03       6.16 r
+  u_core/u_executestage/u_alu0/res_o[31] (alu)            0.00       6.16 r
+  u_core/u_executestage/alu_res_out[31] (execute)         0.00       6.16 r
+  u_core/u_executepipeline/alu_res[31] (execute_pipe)     0.00       6.16 r
+  u_core/u_executepipeline/alu_result_reg[31]/D (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       6.16 r
+  data arrival time                                                  6.16
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             1.50       6.50
+  clock uncertainty                                      -0.30       6.20
+  u_core/u_executepipeline/alu_result_reg[31]/CK (SAEDRVT14_FDPRBQ_V2_0P5)
+                                                          0.00       6.20 r
+  library setup time                                     -0.02       6.18
+  data required time                                                 6.18
+  --------------------------------------------------------------------------
+  data required time                                                 6.18
+  data arrival time                                                 -6.16
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.02
+
+
+1
