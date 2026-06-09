@@ -10,7 +10,11 @@
 ### Full ASIC RTL-to-GDSII Implementation
 
 **Course:** ASIC Design — MVLD505 | **Institution:** Vellore Institute of Technology  
-**Faculty:** Dr. Raghunath G — Dept. of Micro and Nanoelectronics
+**Submitted to:** Dr. Raghunath G — Dept. of Micro and Nanoelectronics
+
+ 
+> Author — **Syed Faheem**
+> M.Tech VLSI Design — VIT Vellore 
 
 </div>
 
