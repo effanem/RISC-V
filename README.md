@@ -29,7 +29,7 @@
 
 ---
 
-## 📋 Abstract
+##  Abstract
 
 This project presents the complete **RTL-to-GDSII** design and implementation of a **5-stage pipelined RV32I RISC-V processor** integrated with a **UART peripheral**, targeting ASIC implementation using Synopsys industry-standard EDA tools.
 
@@ -45,7 +45,7 @@ The processor implements the RV32I base integer instruction set on a classical 5
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 ├── src/                        # RTL Source Files (Verilog)
@@ -112,7 +112,7 @@ The processor implements the RV32I base integer instruction set on a classical 5
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 
 1. [Introduction](#1-introduction)
 2. [RISC-V Architecture Overview](#2-risc-v-architecture-overview)
