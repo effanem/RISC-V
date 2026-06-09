@@ -107,7 +107,7 @@ The processor implements the RV32I base integer instruction set on a classical 5
 │   ├── decoder_all_netlist.v   # Post-layout netlist (all cells)
 │   └── decoder_physical_netlist.v  # Physical netlist
 │
-└── docs/figures/               # Report figures (see below)
+└── docs/                       # Report figures (see below)
 ```
 
 ---
@@ -253,7 +253,7 @@ Synthesis performed using **Synopsys Design Compiler V-2023.12-SP4** targeting *
 
 > **Figure 1: DC Synthesis Area Report — Total Area: 137,197.96 µm²**
 
-![DC Synthesis Area Report](docs/figures/fig01_dc_area_report.jpeg)
+![DC Synthesis Area Report](docs/fig01_dc_area_report.jpeg)
 
 | Metric | Value |
 |---|---|
@@ -278,7 +278,7 @@ Equivalence checking performed using **Synopsys Formality** to confirm the synth
 
 > **Figure 2: Formality Verification — SUCCEEDED, 88/88 compare points passing**
 
-![Formality Verification Result](docs/figures/fig02_formality_result.jpeg)
+![Formality Verification Result](docs/fig02_formality_result.jpeg)
 
 | Metric | Value |
 |---|---|
@@ -298,13 +298,13 @@ STA performed using **Synopsys PrimeTime**.
 
 > **Figure 3: PrimeTime Endpoints — Before ECO: 263 hold violations, WNS = -0.262 ns**
 
-![PrimeTime Before ECO](docs/figures/fig03_primetime_before_eco.jpeg)
+![PrimeTime Before ECO](docs/fig03_primetime_before_eco.jpeg)
 
 ### 8.2 QoR Report
 
 > **Figure 4: PrimeTime QoR Report**
 
-![PrimeTime QoR](docs/figures/fig04_primetime_qor.jpeg)
+![PrimeTime QoR](docs/fig04_primetime_qor.jpeg)
 
 | Path Group | Analysis | Critical Path Slack | Violations |
 |---|---|---|---|
@@ -316,7 +316,7 @@ STA performed using **Synopsys PrimeTime**.
 
 > **Figure 5: ECO Summary — 1,098 buffers inserted, 252/263 violations fixed (95.8%)**
 
-![PrimeTime ECO Summary](docs/figures/fig05_primetime_eco_summary.jpeg)
+![PrimeTime ECO Summary](docs/fig05_primetime_eco_summary.jpeg)
 
 | ECO Metric | Value |
 |---|---|
@@ -331,7 +331,7 @@ STA performed using **Synopsys PrimeTime**.
 
 > **Figure 6: After ECO — 11 remaining violations, WNS = -0.040 ns (SRAM paths only)**
 
-![PrimeTime After ECO](docs/figures/fig06_primetime_after_eco.jpeg)
+![PrimeTime After ECO](docs/fig06_primetime_after_eco.jpeg)
 
 | Metric | Before ECO | After ECO |
 |---|---|---|
@@ -350,7 +350,7 @@ Full PnR flow executed using **Synopsys IC Compiler II**.
 
 > **Figure 7: Floorplan — Two SRAM1RW256x32 macros placed symmetrically**
 
-![ICC2 Floorplan](docs/figures/fig07_icc2_floorplan.jpeg)
+![ICC2 Floorplan](docs/fig07_icc2_floorplan.jpeg)
 
 Two `SRAM1RW256x32` macros placed side-by-side in the lower core half. Standard cells occupy the upper region. Symmetric placement minimises routing congestion.
 
@@ -358,7 +358,7 @@ Two `SRAM1RW256x32` macros placed side-by-side in the lower core half. Standard 
 
 > **Figure 8: Power Plan — Rings and stripes around core and SRAM macros**
 
-![ICC2 Power Plan](docs/figures/fig08_icc2_power_plan.jpeg)
+![ICC2 Power Plan](docs/fig08_icc2_power_plan.jpeg)
 
 PDN includes power rings around each macro and the core boundary, with vertical and horizontal stripes for uniform VDD/VSS delivery at 200 MHz.
 
@@ -366,13 +366,13 @@ PDN includes power rings around each macro and the core boundary, with vertical 
 
 > **Figure 9: Placement — Standard cells placed alongside SRAM macros**
 
-![ICC2 Placement](docs/figures/fig09_icc2_placement.jpeg)
+![ICC2 Placement](docs/fig09_icc2_placement.jpeg)
 
 ### 9.4 Clock Tree Synthesis (CTS)
 
 > **Figure 10: CTS — Balanced clock tree to all 264 flip-flop clock pins**
 
-![ICC2 CTS](docs/figures/fig10_icc2_cts.jpeg)
+![ICC2 CTS](docs/fig10_icc2_cts.jpeg)
 
 4-level clock tree (level0: 2, level1: 3, level2: 3, level3: 266 sinks). SAED14nm clock buffers optimised for low skew and low power.
 
@@ -380,7 +380,7 @@ PDN includes power rings around each macro and the core boundary, with vertical 
 
 > **Figure 11: Initial Route — All signal nets routed through metal layers**
 
-![ICC2 Initial Route](docs/figures/fig11_icc2_initial_route.jpeg)
+![ICC2 Initial Route](docs/fig11_icc2_initial_route.jpeg)
 
 M1–M3 for local connections; upper metals for global routes.
 
@@ -388,7 +388,7 @@ M1–M3 for local connections; upper metals for global routes.
 
 > **Figure 12: Final Route (route_done) — DRC-clean layout ready for GDSII**
 
-![ICC2 Final Route](docs/figures/fig12_icc2_final_route.jpeg)
+![ICC2 Final Route](docs/fig12_icc2_final_route.jpeg)
 
 ### 9.7 Sign-off
 
@@ -396,7 +396,7 @@ M1–M3 for local connections; upper metals for global routes.
 
 > **Figure 13: Cell Density Profile**
 
-![Cell Density](docs/figures/fig13_cell_density.jpeg)
+![Cell Density](docs/fig13_cell_density.jpeg)
 
 Density range 0.1–1.1. Low overall density reflects large SRAM footprint, providing unobstructed routing paths.
 
@@ -404,7 +404,7 @@ Density range 0.1–1.1. Low overall density reflects large SRAM footprint, prov
 
 > **Figure 14: Pin Density Analysis**
 
-![Pin Density](docs/figures/fig14_pin_density.jpeg)
+![Pin Density](docs/fig14_pin_density.jpeg)
 
 Standard cell area: 0.1–9.78 pins per unit area.
 
@@ -412,7 +412,7 @@ Standard cell area: 0.1–9.78 pins per unit area.
 
 > **Figure 15: Power Density Distribution**
 
-![Power Density](docs/figures/fig15_power_density.jpeg)
+![Power Density](docs/fig15_power_density.jpeg)
 
 | Metric | Value |
 |---|---|
@@ -423,19 +423,19 @@ Standard cell area: 0.1–9.78 pins per unit area.
 
 > **Figure 16: Hierarchical Clock Distribution Network**
 
-![Clock Distribution](docs/figures/fig16_clock_distribution.jpeg)
+![Clock Distribution](docs/fig16_clock_distribution.jpeg)
 
 #### Schematic / Block Diagram
 
 > **Figure 17: Layout and Block Architecture**
 
-![Schematic and Block Diagram](docs/figures/fig17_schematic_block.jpeg)
+![Schematic and Block Diagram](docs/fig17_schematic_block.jpeg)
 
 #### DRC Error Browser
 
 > **Figure 18: DRC Error Browser — 217 violations (reduced from >100,000)**
 
-![DRC Error Browser](docs/figures/fig18_drc_errors.jpeg)
+![DRC Error Browser](docs/fig18_drc_errors.jpeg)
 
 | Layer | Violations |
 |---|---|
@@ -450,7 +450,7 @@ Standard cell area: 0.1–9.78 pins per unit area.
 
 > **Figure 19: PG DRC — No errors found**
 
-![PG DRC](docs/figures/fig19_pg_drc.jpeg)
+![PG DRC](docs/fig19_pg_drc.jpeg)
 
 ```
 No errors found.   (check_pg_drc completed in 34.50 seconds)
@@ -460,7 +460,7 @@ No errors found.   (check_pg_drc completed in 34.50 seconds)
 
 > **Figure 20: GTKWave — ICC2 Netlist Functional Verification**
 
-![ICC2 Netlist Simulation](docs/figures/fig20_icc2_netlist_sim.jpeg)
+![ICC2 Netlist Simulation](docs/fig20_icc2_netlist_sim.jpeg)
 
 VCS simulation of the ICC2 post-layout netlist with SAED14 libraries. Simulation to 355 ns validates ALU results, instruction decoding, memory interactions, and register writes.
 
