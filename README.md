@@ -21,7 +21,7 @@
 
 ## Team
 
-| Sreehari R | Karthika GS | Syed Faheem | Abhinav P | MP Fardeen | Joel M Jacob |
+| [Sreehari R](https://www.linkedin.com/in/sreehari-r-599633229/) | [Karthika GS](https://www.linkedin.com/in/karthika-g-s/) | [Syed Faheem](https://www.linkedin.com/in/syedfaym) | [Abhinav P](https://www.linkedin.com/in/abhinavp6013/) | [MP Fardeen](https://www.linkedin.com/in/m-p-fardeen-2aaba8226/) | [Joel M Jacob](https://www.linkedin.com/in/joelmjac/) |
 |---|---|---|---|---|---|
 
 ---
