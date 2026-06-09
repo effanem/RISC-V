@@ -6,7 +6,7 @@
 <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Frequency-200_MHz-red?style=for-the-badge"/>
 
-# 🔬 5-Stage Pipelined RV32I RISC-V Processor
+#  5-Stage Pipelined RV32I RISC-V Processor
 ### Full ASIC RTL-to-GDSII Implementation
 
 **Course:** ASIC Design — MVLD505 | **Institution:** Vellore Institute of Technology  
@@ -16,7 +16,7 @@
 
 ---
 
-## 👥 Team
+##  Team
 
 | Name |
 |---|
