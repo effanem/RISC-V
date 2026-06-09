@@ -16,16 +16,10 @@
 
 ---
 
-##  Team
+## Team
 
-| Name |
-|---|
-| Sreehari R |
-| Karthika GS |
-| Syed Faheem |
-| Abhinav P |
-| MP Fardeen |
-| Joel M Jacob |
+| Sreehari R | Karthika GS | Syed Faheem | Abhinav P | MP Fardeen | Joel M Jacob |
+|---|---|---|---|---|---|
 
 ---
 
