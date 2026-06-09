@@ -1,0 +1,155 @@
+**************************************************
+Report         : designs
+
+Reference      : r:/WORK/microprocessor
+Implementation : i:/WORK/microprocessor
+Version        : V-2023.12-SP4
+Date           : Fri Mar 13 10:26:40 2026
+**************************************************
+
+ ______________________________________________________________________________ 
+|                                                                              |
+|  Legend:                                                                     |
+|           Statistics                  Attributes                             |
+|             c = number of cells         c = CONSENSUS resolution type        |
+|                 linked(unlinked)        x = BLACKBOX resolution type         |
+|             p = number of ports         a = AND resolution type              |
+|             n = number of nets          o = OR resolution type               |
+|                                         f = flatten                          |
+|                                         r = retimed                          |
+|                                         v = VHDL configuration               |
+|______________________________________________________________________________|
+
+
+########################################################################################################
+####    DESIGN LIBRARY - i:/WORK
+########################################################################################################
+Design Name                              Statistics                   Attributes     Verification status
+-----------                              ----------                   ----------     -------------------
+alu                                      c1069(0) p100 n1137             c                     
+branch                                   c5(0) p69 n73                   c                     
+control_decoder                          c48(0) p32 n66                  c                     
+controlunit                              c4(0) p31 n43                   c                     
+core                                     c96(0) p177 n1224               c                     
+data_mem_top                             c4(0) p82 n116                  c                     
+decode                                   c18(0) p251 n761                c                     
+decode_pipe                              c100(0) p366 n375               c                     
+execute                                  c3(0) p164 n166                 c                     
+execute_pipe                             c47(0) p332 n337                c                     
+fetch                                    c36(0) p205 n263                c                     
+fetch_pipe                               c145(0) p134 n215               c                     
+immediategen                             c27(0) p192 n194                c                     
+instruc_mem_top_INIT_MEM1                c3(0) p81 n88                   c                     
+memory_INIT_MEM0                         c42(0) p79 n152                 c                     
+memory_INIT_MEM1                         c6(0) p79 n84                   c                     
+memory_stage                             c5(0) p203 n271                 c                     
+microprocessor                           c5(0) p34 n260                  c                    Failing
+mux3_8                                   c65(0) p195 n228                c                     
+mux_0                                    c36(0) p97 n101                 c                     
+mux_1                                    c36(0) p97 n101                 c                     
+pc                                       c307(0) p135 n402               c                     
+type_decoder                             c24(0) p18 n33                  c                     
+wrappermem                               c17(0) p140 n153                c                     
+
+
+########################################################################################################
+####    DESIGN LIBRARY - r:/WORK
+########################################################################################################
+Design Name                              Statistics                   Attributes     Verification status
+-----------                              ----------                   ----------     -------------------
+M_RTL_ADD_UNS_32                         c162(0) p98 n227                c                     
+M_RTL_DEC_32_5                           c57(0) p38 n63                  c                     
+M_RTL_EQ_32                              c35(0) p65 n99                  c                     
+M_RTL_EQ_5                               c9(0) p11 n19                   c                     
+M_RTL_EQ_CONST_2_0                       c5(0) p3 n7                     c                     
+M_RTL_EQ_CONST_2_1                       c4(0) p3 n6                     c                     
+M_RTL_EQ_CONST_2_2                       c4(0) p3 n6                     c                     
+M_RTL_EQ_CONST_2_3                       c5(0) p3 n7                     c                     
+M_RTL_EQ_CONST_32_00000000               c5(0) p33 n37                   c                     
+M_RTL_EQ_CONST_32_00000001               c8(0) p33 n40                   c                     
+M_RTL_EQ_CONST_3_0                       c5(0) p4 n8                     c                     
+M_RTL_EQ_CONST_3_1                       c4(0) p4 n7                     c                     
+M_RTL_EQ_CONST_3_2                       c4(0) p4 n7                     c                     
+M_RTL_EQ_CONST_3_3                       c5(0) p4 n8                     c                     
+M_RTL_EQ_CONST_3_4                       c4(0) p4 n7                     c                     
+M_RTL_EQ_CONST_3_5                       c5(0) p4 n8                     c                     
+M_RTL_EQ_CONST_3_6                       c5(0) p4 n8                     c                     
+M_RTL_EQ_CONST_3_7                       c5(0) p4 n8                     c                     
+M_RTL_EQ_CONST_4_0                       c5(0) p5 n9                     c                     
+M_RTL_EQ_CONST_4_1                       c4(0) p5 n8                     c                     
+M_RTL_EQ_CONST_4_2                       c4(0) p5 n8                     c                     
+M_RTL_EQ_CONST_4_3                       c5(0) p5 n9                     c                     
+M_RTL_EQ_CONST_4_4                       c4(0) p5 n8                     c                     
+M_RTL_EQ_CONST_4_5                       c5(0) p5 n9                     c                     
+M_RTL_EQ_CONST_4_6                       c5(0) p5 n9                     c                     
+M_RTL_EQ_CONST_4_7                       c5(0) p5 n9                     c                     
+M_RTL_EQ_CONST_4_8                       c4(0) p5 n8                     c                     
+M_RTL_EQ_CONST_4_9                       c5(0) p5 n9                     c                     
+M_RTL_EQ_CONST_4_f                       c5(0) p5 n9                     c                     
+M_RTL_EQ_CONST_7_03                      c6(0) p8 n13                    c                     
+M_RTL_EQ_CONST_7_13                      c5(0) p8 n12                    c                     
+M_RTL_EQ_CONST_7_17                      c5(0) p8 n12                    c                     
+M_RTL_EQ_CONST_7_23                      c5(0) p8 n12                    c                     
+M_RTL_EQ_CONST_7_33                      c5(0) p8 n12                    c                     
+M_RTL_EQ_CONST_7_37                      c6(0) p8 n13                    c                     
+M_RTL_EQ_CONST_7_63                      c5(0) p8 n12                    c                     
+M_RTL_EQ_CONST_7_67                      c6(0) p8 n13                    c                     
+M_RTL_EQ_CONST_7_6f                      c7(0) p8 n14                    c                     
+M_RTL_GEQ_SIGN_32                        c157(0) p65 n221                c                     
+M_RTL_GEQ_UNS_32                         c155(0) p65 n219                c                     
+M_RTL_LSHIFT_32_32                       c541(0) p96 n605                c                     
+M_RTL_LT_SIGN_32                         c156(0) p65 n220                c                     
+M_RTL_LT_UNS_32                          c154(0) p65 n218                c                     
+M_RTL_NEQ_32                             c36(0) p65 n100                 c                     
+M_RTL_NEQ_CONST_32_00000000              c4(0) p33 n36                   c                     
+M_RTL_NEQ_CONST_5_00                     c5(0) p6 n10                    c                     
+M_RTL_RANGE_1_31_0_5                     c24(0) p6 n29                   c                     
+M_RTL_RSHIFT_32_32                       c541(0) p96 n605                c                     
+M_RTL_SELECT_BOX_2_2                     c5(0) p5 n9                     c                     
+M_RTL_SUB_BIN_32                         c195(0) p98 n260                c                     
+M_RTL_VDEMUX_5_32                        c1082(0) p1062 n1120            c                     
+M_RTL_WMUX_10_1                          c25(0) p31 n55                  c                     
+M_RTL_WMUX_2_1                           c7(0) p7 n13                    c                     
+M_RTL_WMUX_2_2                           c12(0) p10 n20                  c                     
+M_RTL_WMUX_2_3                           c17(0) p13 n27                  c                     
+M_RTL_WMUX_2_32                          c162(0) p100 n230               c                     
+M_RTL_WMUX_2_4                           c22(0) p16 n34                  c                     
+M_RTL_WMUX_2_8                           c42(0) p28 n62                  c                     
+M_RTL_WMUX_31_32                         c2019(0) p1086 n3073            c                     
+M_RTL_WMUX_4_16                          c179(0) p88 n251                c                     
+M_RTL_WMUX_4_24                          c267(0) p128 n371               c                     
+M_RTL_WMUX_4_32                          c355(0) p168 n491               c                     
+M_RTL_WMUX_4_4                           c47(0) p28 n71                  c                     
+M_RTL_WMUX_4_8                           c91(0) p48 n131                 c                     
+M_RTL_WMUX_6_32                          c482(0) p236 n686               c                     
+M_RTL_WMUX_7_1                           c18(0) p22 n39                  c                     
+adder                                    c5(0) p64 n68                   c                     
+alu                                      c161(0) p100 n724               c                     
+branch                                   c31(0) p69 n98                  c                     
+control_decoder                          c245(0) p32 n396                c                     
+controlunit                              c4(0) p31 n42                   c                     
+core                                     c51(0) p177 n1197               c                     
+data_mem_top                             c8(0) p82 n88                   c                     
+decode                                   c9(0) p251 n473                 c                     
+decode_pipe                              c369(0) p366 n553               c                     
+execute                                  c4(0) p164 n166                 c                     
+execute_pipe                             c335(0) p332 n502               c                     
+fetch                                    c48(0) p205 n214                c                     
+fetch_pipe                               c164(0) p134 n482               c                     
+immediategen                             c17(0) p192 n49                 c                     
+instruc_mem_top_INIT_MEM1                c8(0) p81 n87                   c                     
+memory_INIT_MEM0                         c16(0) p79 n122                 c                     
+memory_INIT_MEM1                         c16(0) p79 n122                 c                     
+memory_pipe                              c331(0) p328 n496               c                     
+memory_stage                             c14(0) p203 n214                c                     
+microprocessor                           c5(0) p34 n212                  c                     
+mux                                      c5(0) p97 n101                  c                     
+mux2_4                                   c8(0) p162 n169                 c                     
+mux3_8                                   c17(0) p195 n211                c                     
+pc                                       c154(0) p135 n441               c                     
+registerfile                             c4983(0) p114 n6242             c                     
+type_decoder                             c38(0) p18 n47                  c                     
+wrappermem                               c112(0) p140 n680               c                     
+write_back                               c3(0) p130 n164                 c                     
+
+1

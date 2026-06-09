@@ -1,0 +1,1397 @@
+**************************************************
+Report         : matched_points
+
+Reference      : r:/WORK/microprocessor
+Implementation : i:/WORK/microprocessor
+Version        : V-2023.12-SP4
+Date           : Fri Mar 13 10:26:40 2026
+**************************************************
+
+450 Matched points:
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/alu_con_reg[0]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/alu_con_reg[0]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/alu_con_reg[1]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/alu_con_reg[1]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/alu_con_reg[2]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/alu_con_reg[2]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/alu_con_reg[3]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/alu_con_reg[3]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/branch_res_reg
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/branch_res_reg
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/instruction_reg[10]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/instruction_reg[10]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/instruction_reg[11]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/instruction_reg[11]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/instruction_reg[12]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/instruction_reg[12]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/instruction_reg[13]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/instruction_reg[13]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/instruction_reg[14]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/instruction_reg[14]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/instruction_reg[7]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/instruction_reg[7]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/instruction_reg[8]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/instruction_reg[8]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/instruction_reg[9]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/instruction_reg[9]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/jalr_reg
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/jalr_reg
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/l_reg
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/l_reg
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/nextsel_reg
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/nextsel_reg
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[0]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[0]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[10]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[10]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[11]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[11]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[12]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[12]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[13]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[13]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[14]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[14]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[15]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[15]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[16]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[16]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[17]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[17]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[18]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[18]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[19]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[19]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[1]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[1]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[20]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[20]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[21]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[21]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[22]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[22]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[23]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[23]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[24]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[24]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[25]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[25]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[26]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[26]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[27]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[27]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[28]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[28]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[29]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[29]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[2]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[2]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[30]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[30]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[31]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[31]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[3]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[3]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[4]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[4]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[5]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[5]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[6]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[6]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[7]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[7]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[8]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[8]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[9]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opa_mux_reg[9]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[0]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[0]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[10]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[10]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[11]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[11]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[12]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[12]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[13]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[13]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[14]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[14]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[15]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[15]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[16]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[16]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[17]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[17]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[18]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[18]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[19]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[19]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[1]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[1]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[20]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[20]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[21]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[21]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[22]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[22]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[23]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[23]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[24]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[24]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[25]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[25]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[26]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[26]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[27]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[27]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[28]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[28]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[29]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[29]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[2]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[2]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[30]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[30]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[31]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[31]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[3]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[3]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[4]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[4]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[5]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[5]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[6]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[6]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[7]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[7]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[8]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[8]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[9]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/opb_mux_reg[9]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/rs1_reg[0]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/rs1_reg[0]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/rs1_reg[1]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/rs1_reg[1]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/rs1_reg[2]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/rs1_reg[2]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/rs1_reg[3]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/rs1_reg[3]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/rs1_reg[4]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/rs1_reg[4]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/rs2_reg[0]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/rs2_reg[0]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/rs2_reg[1]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/rs2_reg[1]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/rs2_reg[2]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/rs2_reg[2]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/rs2_reg[3]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/rs2_reg[3]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/rs2_reg[4]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/rs2_reg[4]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_decodepipeline/s_reg
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_decodepipeline/s_reg
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[0]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[0]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[10]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[10]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[11]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[11]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[12]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[12]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[13]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[13]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[14]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[14]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[15]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[15]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[16]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[16]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[17]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[17]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[18]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[18]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[19]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[19]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[1]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[1]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[20]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[20]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[21]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[21]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[22]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[22]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[23]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[23]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[24]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[24]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[25]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[25]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[26]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[26]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[27]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[27]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[28]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[28]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[29]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[29]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[2]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[2]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[30]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[30]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[31]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[31]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[3]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[3]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[4]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[4]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[5]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[5]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[6]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[6]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[7]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[7]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[8]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[8]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[9]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/alu_result_reg[9]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/instruction_reg[10]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/instruction_reg[10]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/instruction_reg[11]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/instruction_reg[11]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/instruction_reg[12]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/instruction_reg[12]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/instruction_reg[13]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/instruction_reg[13]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/instruction_reg[14]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/instruction_reg[14]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/instruction_reg[7]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/instruction_reg[7]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/instruction_reg[8]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/instruction_reg[8]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/instruction_reg[9]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/instruction_reg[9]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/load_reg
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/load_reg
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_executepipeline/store_reg
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_executepipeline/store_reg
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/flush_pipeline2_reg
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/flush_pipeline2_reg
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/flush_pipeline_reg
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/flush_pipeline_reg
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[0]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[0]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[10]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[10]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[11]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[11]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[12]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[12]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[13]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[13]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[14]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[14]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[15]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[15]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[16]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[16]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[17]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[17]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[18]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[18]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[19]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[19]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[1]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[1]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[20]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[20]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[21]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[21]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[22]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[22]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[23]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[23]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[24]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[24]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[25]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[25]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[26]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[26]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[27]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[27]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[28]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[28]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[29]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[29]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[2]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[2]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[30]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[30]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[31]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[31]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[3]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[3]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[4]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[4]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[5]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[5]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[6]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[6]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[7]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[7]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[8]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[8]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[9]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/instruc_reg[9]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[0]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[0]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[10]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[10]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[11]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[11]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[12]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[12]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[13]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[13]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[14]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[14]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[15]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[15]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[16]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[16]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[17]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[17]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[18]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[18]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[19]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[19]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[1]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[1]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[20]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[20]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[21]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[21]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[22]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[22]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[23]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[23]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[24]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[24]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[25]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[25]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[26]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[26]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[27]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[27]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[28]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[28]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[29]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[29]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[2]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[2]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[30]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[30]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[31]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[31]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[3]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[3]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[4]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[4]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[5]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[5]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[6]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[6]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[7]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[7]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[8]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[8]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[9]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchpipeline/pre_address_reg[9]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[0]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[0]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[10]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[10]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[11]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[11]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[12]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[12]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[13]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[13]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[14]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[14]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[15]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[15]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[16]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[16]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[17]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[17]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[18]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[18]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[19]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[19]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[1]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[1]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[20]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[20]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[21]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[21]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[22]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[22]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[23]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[23]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[24]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[24]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[25]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[25]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[26]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[26]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[27]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[27]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[28]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[28]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[29]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[29]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[2]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[2]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[30]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[30]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[31]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[31]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[3]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[3]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[4]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[4]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[5]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[5]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[6]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[6]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[7]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[7]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[8]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[8]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[9]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/address_out_reg[9]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[0]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[0]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[10]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[10]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[11]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[11]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[12]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[12]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[13]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[13]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[14]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[14]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[15]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[15]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[16]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[16]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[17]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[17]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[18]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[18]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[19]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[19]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[1]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[1]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[20]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[20]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[21]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[21]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[22]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[22]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[23]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[23]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[24]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[24]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[25]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[25]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[26]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[26]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[27]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[27]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[28]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[28]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[29]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[29]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[2]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[2]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[30]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[30]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[31]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[31]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[3]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[3]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[4]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[4]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[5]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[5]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[6]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[6]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[7]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[7]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[8]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[8]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[9]
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_core/u_fetchstage/u_pc0/pre_address_reg[9]
+
+  Ref  DFF        Name(Last) r:/WORK/microprocessor/u_data_memory/valid_reg
+  Impl DFF        Name(Last) i:/WORK/microprocessor/u_data_memory/valid_reg
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/A[0]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/A[0]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/A[1]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/A[1]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/A[2]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/A[2]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/A[3]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/A[3]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/A[4]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/A[4]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/A[5]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/A[5]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/A[6]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/A[6]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/A[7]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/A[7]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/CE
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/CE
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/CSB
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/CSB
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[0]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[0]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[10]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[10]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[11]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[11]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[12]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[12]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[13]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[13]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[14]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[14]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[15]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[15]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[16]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[16]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[17]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[17]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[18]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[18]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[19]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[19]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[1]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[1]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[20]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[20]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[21]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[21]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[22]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[22]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[23]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[23]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[24]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[24]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[25]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[25]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[26]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[26]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[27]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[27]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[28]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[28]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[29]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[29]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[2]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[2]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[30]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[30]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[31]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[31]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[3]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[3]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[4]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[4]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[5]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[5]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[6]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[6]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[7]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[7]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[8]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[8]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/I[9]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/I[9]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/OEB
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/OEB
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[0]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[0]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[10]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[10]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[11]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[11]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[12]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[12]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[13]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[13]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[14]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[14]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[15]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[15]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[16]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[16]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[17]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[17]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[18]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[18]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[19]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[19]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[1]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[1]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[20]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[20]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[21]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[21]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[22]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[22]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[23]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[23]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[24]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[24]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[25]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[25]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[26]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[26]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[27]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[27]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[28]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[28]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[29]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[29]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[2]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[2]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[30]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[30]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[31]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[31]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[3]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[3]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[4]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[4]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[5]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[5]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[6]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[6]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[7]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[7]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[8]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[8]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/O[9]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/O[9]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_data_memory/u_memory/mem/WEB
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_data_memory/u_memory/mem/WEB
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/A[0]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/A[0]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/A[1]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/A[1]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/A[2]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/A[2]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/A[3]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/A[3]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/A[4]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/A[4]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/A[5]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/A[5]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/A[6]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/A[6]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/A[7]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/A[7]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/CE
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/CE
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/CSB
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/CSB
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[0]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[0]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[10]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[10]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[11]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[11]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[12]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[12]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[13]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[13]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[14]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[14]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[15]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[15]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[16]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[16]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[17]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[17]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[18]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[18]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[19]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[19]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[1]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[1]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[20]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[20]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[21]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[21]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[22]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[22]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[23]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[23]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[24]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[24]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[25]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[25]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[26]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[26]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[27]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[27]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[28]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[28]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[29]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[29]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[2]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[2]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[30]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[30]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[31]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[31]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[3]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[3]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[4]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[4]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[5]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[5]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[6]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[6]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[7]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[7]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[8]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[8]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[9]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/I[9]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/OEB
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/OEB
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[0]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[0]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[10]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[10]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[11]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[11]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[12]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[12]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[13]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[13]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[14]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[14]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[15]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[15]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[16]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[16]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[17]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[17]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[18]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[18]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[19]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[19]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[1]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[1]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[20]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[20]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[21]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[21]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[22]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[22]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[23]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[23]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[24]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[24]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[25]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[25]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[26]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[26]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[27]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[27]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[28]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[28]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[29]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[29]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[2]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[2]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[30]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[30]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[31]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[31]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[3]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[3]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[4]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[4]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[5]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[5]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[6]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[6]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[7]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[7]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[8]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[8]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[9]
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/O[9]
+
+  Ref  BBPin      Name(Last) r:/WORK/microprocessor/u_instruction_memory/u_memory/mem/WEB
+  Impl BBPin      Name(Last) i:/WORK/microprocessor/u_instruction_memory/u_memory/mem/WEB
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/clk
+  Impl Port       Name(Last) i:/WORK/microprocessor/clk
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[0]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[0]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[10]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[10]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[11]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[11]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[12]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[12]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[13]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[13]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[14]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[14]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[15]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[15]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[16]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[16]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[17]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[17]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[18]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[18]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[19]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[19]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[1]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[1]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[20]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[20]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[21]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[21]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[22]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[22]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[23]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[23]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[24]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[24]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[25]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[25]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[26]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[26]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[27]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[27]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[28]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[28]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[29]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[29]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[2]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[2]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[30]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[30]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[31]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[31]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[3]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[3]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[4]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[4]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[5]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[5]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[6]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[6]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[7]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[7]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[8]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[8]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/instruction[9]
+  Impl Port       Name(Last) i:/WORK/microprocessor/instruction[9]
+
+  Ref  Port       Name(Last) r:/WORK/microprocessor/rst
+  Impl Port       Name(Last) i:/WORK/microprocessor/rst
+
+ [BBNet: multiply-driven net
+  BBox:  black-box
+  BBPin: black-box pin
+  Block: hierarchical block
+  BlPin: hierarchical block pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Net:   matchable net
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point
+
+  Func:  matched by function
+  Name:  matched by name
+  Topo:  matched by topology
+  User:  matched by user
+
+  Last:  matched during most recent matching]
+
+1
