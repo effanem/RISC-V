@@ -13,7 +13,7 @@
 **Submitted to:** Dr. Raghunath G — Dept. of Micro and Nanoelectronics
 
  
-> Author — **Syed Faheem** (M.Tech VLSI Design '27 — VIT Vellore) 
+ Author — **Syed Faheem** (M.Tech VLSI Design '27 — VIT Vellore) 
 
 </div>
 
